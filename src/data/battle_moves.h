@@ -2321,7 +2321,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
             .zMovePower = 180,
         #endif
         .effect = EFFECT_SKULL_BASH,
-        .type = TYPE_NORMAL,
+        .type = TYPE_ROCK,
         .accuracy = 100,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -8335,7 +8335,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_DARK_VOID] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_7
-            .accuracy = 50,
+            .accuracy = 80,
         #else
             .accuracy = 80,
         #endif
@@ -13077,7 +13077,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_WICKED_BLOW] =
     {
         .effect = EFFECT_ALWAYS_CRIT,
-        .power = 80,
+        .power = 70,
         .type = TYPE_DARK,
         .accuracy = 100,
         .pp = 5,
@@ -13092,8 +13092,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
 
     [MOVE_SURGING_STRIKES] =
     {
+<<<<<<< Updated upstream
         .effect = EFFECT_ALWAYS_CRIT,
         .power = 25,
+=======
+        .effect = EFFECT_TRIPLE_HIT,
+        .power = 20,
+>>>>>>> Stashed changes
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 5,

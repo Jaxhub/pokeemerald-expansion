@@ -300,3 +300,88 @@ Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
 
+Route101_EventScript_Quest1::
+	lockall
+	faceplayer
+	questmenu QUEST_MENU_CHECK_COMPLETE SIDE_QUEST_1
+	goto_if_eq VAR_RESULT, TRUE, Route101_EventScript_Quest1_2
+Route101_EventScript_Quest1_1:
+	questmenu QUEST_MENU_CHECK_UNLOCKED SIDE_QUEST_1
+	goto_if_eq VAR_RESULT, FALSE, Route101_EventScript_Quest1_5
+Route101_EventScript_Quest1_4:
+	questmenu QUEST_MENU_GET_ACTIVE_QUEST 0
+	goto_if_eq VAR_RESULT, 0, Route101_EventScript_Quest1_9
+Route101_EventScript_Quest1_7:
+	releaseall
+	return
+
+Route101_EventScript_Quest1_2:
+	msgbox Route101_EventScript_Quest1_Text_0
+	goto Route101_EventScript_Quest1_1
+
+Route101_EventScript_Quest1_5:
+	msgbox Route101_EventScript_Quest1_Text_1
+	playfanfare MUS_OBTAIN_ITEM
+	questmenu QUEST_MENU_UNLOCK_QUEST SIDE_QUEST_1
+	openquestmenu
+	goto Route101_EventScript_Quest1_4
+
+Route101_EventScript_Quest1_8:
+	removeitem ITEM_POTION, 1
+	questmenu QUEST_MENU_COMPLETE_QUEST SIDE_QUEST_1
+	waitmessage
+	msgbox Route101_EventScript_Quest1_Text_2
+	giveitem ITEM_QUICK_BALL, 5
+	setflag FLAG_SYS_DETECTOR_MODE
+	goto Route101_EventScript_Quest1_7
+
+Route101_EventScript_Quest1_9:
+	checkitem ITEM_POTION, 1
+	goto_if_eq VAR_RESULT, TRUE, Route101_EventScript_Quest1_8
+	goto Route101_EventScript_Quest1_7
+
+
+Route101_EventScript_Quest1_Text_0:
+	.string "Thanks for the help$"
+
+Route101_EventScript_Quest1_Text_1:
+	.string "Can you give me a potion$"
+
+Route101_EventScript_Quest1_Text_2:
+	.string "Here are some quick balls$"
+
+Route101_EventScript_Sunkern::
+	lockall
+	msgbox Trip
+	waitmessage
+	givemon SPECIES_SUNKERN, 5, ITEM_ORAN_BERRY
+	playfanfare MUS_OBTAIN_ITEM
+	waitmessage
+	msgbox Route101_EventScript_Sunkern_Text_0
+	call Nickname
+	waitmessage
+	releaseall
+	return
+
+
+Nickname::
+	msgbox Nickname_Text_0
+	compare VAR_RESULT, YES
+	goto_if_eq Nickname_1
+	return
+
+Nickname_1:
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+Route101_EventScript_Sunkern_Text_0:
+	.string "You recieved sunkern$"
+
+Nickname_Text_0:
+	.string "Give it a nickname$"
+
+Trip::
+	.string "There is something at your foot\p"
+	.string "It appears to be a pokemon$"

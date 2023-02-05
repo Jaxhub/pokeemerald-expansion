@@ -197,6 +197,7 @@ void UnfreezeObjectEvent(struct ObjectEvent *);
 u8 FindLockedObjectEventIndex(struct ObjectEvent *);
 void SetAndStartSpriteAnim(struct Sprite *, u8 animNum, u8 animCmdIndex);
 bool8 SpriteAnimEnded(struct Sprite *);
+bool8 IsZCoordMismatchAt(u8, s16, s16);
 void UnfreezeObjectEvents(void);
 void FreezeObjectEventsExceptOne(u8 objectEventId);
 void FreezeObjectEventsExceptTwo(u8 objectEventId1, u8 objectEventId2);

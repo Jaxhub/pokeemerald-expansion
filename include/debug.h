@@ -1,8 +1,17 @@
 #ifndef GUARD_DEBUG_H
 #define GUARD_DEBUG_H
+<<<<<<< Updated upstream
 
 #include "constants/overworld_config.h"
 
 void Debug_ShowMainMenu(void);
 
 #endif // GUARD_DEBUG_H
+=======
+#if DEBUGGING
+
+void Debug_ShowMainMenu(void);
+
+#endif
+#endif // GUARD_DEBUG_H
+>>>>>>> Stashed changes

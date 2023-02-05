@@ -454,7 +454,11 @@ extern const u32 gMonFrontPic_Groudon[];
 extern const u32 gMonFrontPic_Rayquaza[];
 extern const u32 gMonFrontPic_Jirachi[];
 extern const u32 gMonFrontPic_Deoxys[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_Turtwig[];
 extern const u32 gMonFrontPic_Grotle[];
 extern const u32 gMonFrontPic_Torterra[];
@@ -571,8 +575,13 @@ extern const u32 gMonFrontPic_Manaphy[];
 extern const u32 gMonFrontPic_Darkrai[];
 extern const u32 gMonFrontPic_Shaymin[];
 extern const u32 gMonFrontPic_Arceus[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_Victini[];
 extern const u32 gMonFrontPic_Snivy[];
 extern const u32 gMonFrontPic_Servine[];
@@ -807,8 +816,13 @@ extern const u32 gMonFrontPic_Zygarde[];
 extern const u32 gMonFrontPic_Diancie[];
 extern const u32 gMonFrontPic_Hoopa[];
 extern const u32 gMonFrontPic_Volcanion[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_Rowlet[];
 extern const u32 gMonFrontPic_Dartrix[];
 extern const u32 gMonFrontPic_Decidueye[];
@@ -897,8 +911,13 @@ extern const u32 gMonFrontPic_Blacephalon[];
 extern const u32 gMonFrontPic_Zeraora[];
 extern const u32 gMonFrontPic_Meltan[];
 extern const u32 gMonFrontPic_Melmetal[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_Grookey[];
 extern const u32 gMonFrontPic_Thwackey[];
 extern const u32 gMonFrontPic_Rillaboom[];
@@ -996,7 +1015,10 @@ extern const u32 gMonFrontPic_Ursaluna[];
 //extern const u32 gMonFrontPic_Sneasler[];
 extern const u32 gMonFrontPic_Overqwil[];
 //extern const u32 gMonFrontPic_Enamorus[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
 extern const u32 gMonFrontPic_CharizardMegaY[];
@@ -1037,12 +1059,17 @@ extern const u32 gMonFrontPic_SalamenceMega[];
 extern const u32 gMonFrontPic_MetagrossMega[];
 extern const u32 gMonFrontPic_LatiasMega[];
 extern const u32 gMonFrontPic_LatiosMega[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_LopunnyMega[];
 extern const u32 gMonFrontPic_GarchompMega[];
 extern const u32 gMonFrontPic_LucarioMega[];
 extern const u32 gMonFrontPic_AbomasnowMega[];
 extern const u32 gMonFrontPic_GalladeMega[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
 extern const u32 gMonFrontPic_AudinoMega[];
@@ -1050,6 +1077,15 @@ extern const u32 gMonFrontPic_AudinoMega[];
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonFrontPic_DiancieMega[];
 #endif
+=======
+
+
+extern const u32 gMonFrontPic_AudinoMega[];
+
+
+extern const u32 gMonFrontPic_DiancieMega[];
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_RayquazaMega[];
 extern const u32 gMonFrontPic_KyogrePrimal[];
 extern const u32 gMonFrontPic_GroudonPrimal[];
@@ -1086,12 +1122,19 @@ extern const u32 gMonFrontPic_SlowkingGalarian[];
 extern const u32 gMonFrontPic_CorsolaGalarian[];
 extern const u32 gMonFrontPic_ZigzagoonGalarian[];
 extern const u32 gMonFrontPic_LinooneGalarian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_DarumakaGalarian[];
 extern const u32 gMonFrontPic_DarmanitanGalarian[];
 extern const u32 gMonFrontPic_YamaskGalarian[];
 extern const u32 gMonFrontPic_StunfiskGalarian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_GrowlitheHisuian[];
 extern const u32 gMonFrontPic_ArcanineHisuian[];
 extern const u32 gMonFrontPic_VoltorbHisuian[];
@@ -1099,12 +1142,16 @@ extern const u32 gMonFrontPic_ElectrodeHisuian[];
 extern const u32 gMonFrontPic_TyphlosionHisuian[];
 extern const u32 gMonFrontPic_QwilfishHisuian[];
 extern const u32 gMonFrontPic_SneaselHisuian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+>>>>>>> Stashed changes
 //extern const u32 gMonFrontPic_SamurottHisuian[];
 extern const u32 gMonFrontPic_LilligantHisuian[];
 extern const u32 gMonFrontPic_ZoruaHisuian[];
 extern const u32 gMonFrontPic_ZoroarkHisuian[];
 extern const u32 gMonFrontPic_BraviaryHisuian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonFrontPic_SliggooHisuian[];
@@ -1114,6 +1161,12 @@ extern const u32 gMonFrontPic_AvaluggHisuian[];
 #if P_GEN_7_POKEMON == TRUE
 //extern const u32 gMonFrontPic_DecidueyeHisuian[];
 #endif
+=======
+extern const u32 gMonFrontPic_SliggooHisuian[];
+extern const u32 gMonFrontPic_GoodraHisuian[];
+extern const u32 gMonFrontPic_AvaluggHisuian[];
+extern const u32 gMonFrontPic_DecidueyeHisuian[];
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_PikachuCosplay[];
 extern const u32 gMonFrontPic_PikachuRockStar[];
 extern const u32 gMonFrontPic_PikachuBelle[];
@@ -1162,7 +1215,11 @@ extern const u32 gMonFrontPic_CastformSnowy[];
 extern const u32 gMonFrontPic_DeoxysAttack[];
 extern const u32 gMonFrontPic_DeoxysDefense[];
 extern const u32 gMonFrontPic_DeoxysSpeed[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_BurmySandyCloak[];
 extern const u32 gMonFrontPic_BurmyTrashCloak[];
 extern const u32 gMonFrontPic_WormadamSandyCloak[];
@@ -1179,8 +1236,13 @@ extern const u32 gMonFrontPic_DialgaOrigin[];
 extern const u32 gMonFrontPic_PalkiaOrigin[];
 extern const u32 gMonFrontPic_GiratinaOrigin[];
 extern const u32 gMonFrontPic_ShayminSky[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_BasculinBlueStriped[];
 extern const u32 gMonFrontPic_BasculinWhiteStriped[];
 extern const u32 gMonFrontPic_DarmanitanZenMode[];
@@ -1191,14 +1253,24 @@ extern const u32 gMonFrontPic_SawsbuckWinter[];
 extern const u32 gMonFrontPic_TornadusTherian[];
 extern const u32 gMonFrontPic_ThundurusTherian[];
 extern const u32 gMonFrontPic_LandorusTherian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_KyuremWhite[];
 extern const u32 gMonFrontPic_KyuremBlack[];
 extern const u32 gMonFrontPic_KeldeoResolute[];
 extern const u32 gMonFrontPic_MeloettaPirouette[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_GreninjaAsh[];
 extern const u32 gMonFrontPic_VivillonPolar[];
 extern const u32 gMonFrontPic_VivillonTundra[];
@@ -1241,8 +1313,13 @@ extern const u32 gMonFrontPic_XerneasActive[];
 extern const u32 gMonFrontPic_Zygarde10[];
 extern const u32 gMonFrontPic_ZygardeComplete[];
 extern const u32 gMonFrontPic_HoopaUnbound[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_OricorioPomPom[];
 extern const u32 gMonFrontPic_OricorioPau[];
 extern const u32 gMonFrontPic_OricorioSensu[];
@@ -1255,8 +1332,12 @@ extern const u32 gMonFrontPic_NecrozmaDuskMane[];
 extern const u32 gMonFrontPic_NecrozmaDawnWings[];
 extern const u32 gMonFrontPic_NecrozmaUltra[];
 extern const u32 gMonFrontPic_MagearnaOriginalColor[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_CramorantGulping[];
 extern const u32 gMonFrontPic_CramorantGorging[];
 extern const u32 gMonFrontPic_ToxtricityLowKey[];
@@ -1279,7 +1360,10 @@ extern const u32 gMonFrontPic_ZarudeDada[];
 extern const u32 gMonFrontPic_CalyrexIceRider[];
 extern const u32 gMonFrontPic_CalyrexShadowRider[];
 //extern const u32 gMonFrontPic_EnamorusTherian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -1671,7 +1755,11 @@ extern const u32 gMonBackPic_Groudon[];
 extern const u32 gMonBackPic_Rayquaza[];
 extern const u32 gMonBackPic_Jirachi[];
 extern const u32 gMonBackPic_Deoxys[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_Turtwig[];
 extern const u32 gMonBackPic_Grotle[];
 extern const u32 gMonBackPic_Torterra[];
@@ -1787,8 +1875,13 @@ extern const u32 gMonBackPic_Manaphy[];
 extern const u32 gMonBackPic_Darkrai[];
 extern const u32 gMonBackPic_Shaymin[];
 extern const u32 gMonBackPic_Arceus[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_Victini[];
 extern const u32 gMonBackPic_Snivy[];
 extern const u32 gMonBackPic_Servine[];
@@ -1948,8 +2041,13 @@ extern const u32 gMonBackPic_Kyurem[];
 extern const u32 gMonBackPic_Keldeo[];
 extern const u32 gMonBackPic_Meloetta[];
 extern const u32 gMonBackPic_Genesect[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_Chespin[];
 extern const u32 gMonBackPic_Quilladin[];
 extern const u32 gMonBackPic_Chesnaught[];
@@ -2023,8 +2121,13 @@ extern const u32 gMonBackPic_Zygarde[];
 extern const u32 gMonBackPic_Diancie[];
 extern const u32 gMonBackPic_Hoopa[];
 extern const u32 gMonBackPic_Volcanion[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_Rowlet[];
 extern const u32 gMonBackPic_Dartrix[];
 extern const u32 gMonBackPic_Decidueye[];
@@ -2113,8 +2216,13 @@ extern const u32 gMonBackPic_Blacephalon[];
 extern const u32 gMonBackPic_Zeraora[];
 extern const u32 gMonBackPic_Meltan[];
 extern const u32 gMonBackPic_Melmetal[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_Grookey[];
 extern const u32 gMonBackPic_Thwackey[];
 extern const u32 gMonBackPic_Rillaboom[];
@@ -2212,7 +2320,10 @@ extern const u32 gMonBackPic_Ursaluna[];
 //extern const u32 gMonBackPic_Sneasler[];
 extern const u32 gMonBackPic_Overqwil[];
 //extern const u32 gMonBackPic_Enamorus[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
 extern const u32 gMonBackPic_CharizardMegaY[];
@@ -2253,12 +2364,17 @@ extern const u32 gMonBackPic_SalamenceMega[];
 extern const u32 gMonBackPic_MetagrossMega[];
 extern const u32 gMonBackPic_LatiasMega[];
 extern const u32 gMonBackPic_LatiosMega[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_LopunnyMega[];
 extern const u32 gMonBackPic_GarchompMega[];
 extern const u32 gMonBackPic_LucarioMega[];
 extern const u32 gMonBackPic_AbomasnowMega[];
 extern const u32 gMonBackPic_GalladeMega[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
 extern const u32 gMonBackPic_AudinoMega[];
@@ -2266,6 +2382,15 @@ extern const u32 gMonBackPic_AudinoMega[];
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonBackPic_DiancieMega[];
 #endif
+=======
+
+
+extern const u32 gMonBackPic_AudinoMega[];
+
+
+extern const u32 gMonBackPic_DiancieMega[];
+
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_RayquazaMega[];
 extern const u32 gMonBackPic_KyogrePrimal[];
 extern const u32 gMonBackPic_GroudonPrimal[];
@@ -2307,7 +2432,10 @@ extern const u32 gMonBackPic_DarumakaGalarian[];
 extern const u32 gMonBackPic_DarmanitanGalarian[];
 extern const u32 gMonBackPic_YamaskGalarian[];
 extern const u32 gMonBackPic_StunfiskGalarian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_GrowlitheHisuian[];
 extern const u32 gMonBackPic_ArcanineHisuian[];
 extern const u32 gMonBackPic_VoltorbHisuian[];
@@ -2315,12 +2443,16 @@ extern const u32 gMonBackPic_ElectrodeHisuian[];
 extern const u32 gMonBackPic_TyphlosionHisuian[];
 extern const u32 gMonBackPic_QwilfishHisuian[];
 extern const u32 gMonBackPic_SneaselHisuian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+>>>>>>> Stashed changes
 //extern const u32 gMonBackPic_SamurottHisuian[];
 extern const u32 gMonBackPic_LilligantHisuian[];
 extern const u32 gMonBackPic_ZoruaHisuian[];
 extern const u32 gMonBackPic_ZoroarkHisuian[];
 extern const u32 gMonBackPic_BraviaryHisuian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonBackPic_SliggooHisuian[];
@@ -2330,6 +2462,12 @@ extern const u32 gMonBackPic_AvaluggHisuian[];
 #if P_GEN_7_POKEMON == TRUE
 //extern const u32 gMonBackPic_DecidueyeHisuian[];
 #endif
+=======
+extern const u32 gMonBackPic_SliggooHisuian[];
+extern const u32 gMonBackPic_GoodraHisuian[];
+extern const u32 gMonBackPic_AvaluggHisuian[];
+extern const u32 gMonBackPic_DecidueyeHisuian[];
+>>>>>>> Stashed changes
 extern const u32 gMonBackPic_PikachuCosplay[];
 extern const u32 gMonBackPic_PikachuRockStar[];
 extern const u32 gMonBackPic_PikachuBelle[];
@@ -2493,7 +2631,10 @@ extern const u32 gMonBackPic_ZarudeDada[];
 extern const u32 gMonBackPic_CalyrexIceRider[];
 extern const u32 gMonBackPic_CalyrexShadowRider[];
 //extern const u32 gMonBackPic_EnamorusTherian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -2883,7 +3024,11 @@ extern const u32 gMonPalette_Groudon[];
 extern const u32 gMonPalette_Rayquaza[];
 extern const u32 gMonPalette_Jirachi[];
 extern const u32 gMonPalette_Deoxys[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_Turtwig[];
 extern const u32 gMonPalette_Grotle[];
 extern const u32 gMonPalette_Torterra[];
@@ -3418,7 +3563,10 @@ extern const u32 gMonPalette_Ursaluna[];
 //extern const u32 gMonPalette_Sneasler[];
 extern const u32 gMonPalette_Overqwil[];
 //extern const u32 gMonPalette_Enamorus[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
 extern const u32 gMonPalette_CharizardMegaY[];
@@ -3513,7 +3661,10 @@ extern const u32 gMonPalette_DarumakaGalarian[];
 extern const u32 gMonPalette_DarmanitanGalarian[];
 extern const u32 gMonPalette_YamaskGalarian[];
 extern const u32 gMonPalette_StunfiskGalarian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_GrowlitheHisuian[];
 extern const u32 gMonPalette_ArcanineHisuian[];
 extern const u32 gMonPalette_VoltorbHisuian[];
@@ -3521,12 +3672,16 @@ extern const u32 gMonPalette_ElectrodeHisuian[];
 extern const u32 gMonPalette_TyphlosionHisuian[];
 extern const u32 gMonPalette_QwilfishHisuian[];
 extern const u32 gMonPalette_SneaselHisuian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+>>>>>>> Stashed changes
 //extern const u32 gMonPalette_SamurottHisuian[];
 extern const u32 gMonPalette_LilligantHisuian[];
 extern const u32 gMonPalette_ZoruaHisuian[];
 extern const u32 gMonPalette_ZoroarkHisuian[];
 extern const u32 gMonPalette_BraviaryHisuian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonPalette_SliggooHisuian[];
@@ -3536,6 +3691,12 @@ extern const u32 gMonPalette_AvaluggHisuian[];
 #if P_GEN_7_POKEMON == TRUE
 //extern const u32 gMonPalette_DecidueyeHisuian[];
 #endif
+=======
+extern const u32 gMonPalette_SliggooHisuian[];
+extern const u32 gMonPalette_GoodraHisuian[];
+extern const u32 gMonPalette_AvaluggHisuian[];
+//extern const u32 gMonPalette_DecidueyeHisuian[];
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_PikachuCosplay[];
 extern const u32 gMonPalette_PikachuRockStar[];
 extern const u32 gMonPalette_PikachuBelle[];
@@ -3557,7 +3718,11 @@ extern const u32 gMonPalette_CastformSnowy[];
 extern const u32 gMonPalette_DeoxysAttack[];
 extern const u32 gMonPalette_DeoxysDefense[];
 extern const u32 gMonPalette_DeoxysSpeed[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_BurmySandyCloak[];
 extern const u32 gMonPalette_BurmyTrashCloak[];
 extern const u32 gMonPalette_WormadamSandyCloak[];
@@ -3591,8 +3756,13 @@ extern const u32 gMonPalette_ArceusIce[];
 extern const u32 gMonPalette_ArceusDragon[];
 extern const u32 gMonPalette_ArceusDark[];
 extern const u32 gMonPalette_ArceusFairy[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_BasculinBlueStriped[];
 extern const u32 gMonPalette_BasculinWhiteStriped[];
 extern const u32 gMonPalette_DarmanitanZenMode[];
@@ -3614,8 +3784,13 @@ extern const u32 gMonPalette_GenesectDouseDrive[];
 extern const u32 gMonPalette_GenesectShockDrive[];
 extern const u32 gMonPalette_GenesectBurnDrive[];
 extern const u32 gMonPalette_GenesectChillDrive[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_GreninjaAsh[];
 extern const u32 gMonPalette_VivillonPolar[];
 extern const u32 gMonPalette_VivillonTundra[];
@@ -3664,8 +3839,13 @@ extern const u32 gMonPalette_XerneasActive[];
 extern const u32 gMonPalette_Zygarde10[];
 extern const u32 gMonPalette_ZygardeComplete[];
 extern const u32 gMonPalette_HoopaUnbound[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_OricorioPomPom[];
 extern const u32 gMonPalette_OricorioPau[];
 extern const u32 gMonPalette_OricorioSensu[];
@@ -3701,8 +3881,13 @@ extern const u32 gMonPalette_NecrozmaDuskMane[];
 extern const u32 gMonPalette_NecrozmaDawnWings[];
 extern const u32 gMonPalette_NecrozmaUltra[];
 extern const u32 gMonPalette_MagearnaOriginalColor[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_CramorantGulping[];
 extern const u32 gMonPalette_CramorantGorging[];
 extern const u32 gMonPalette_ToxtricityLowKey[];
@@ -3725,7 +3910,10 @@ extern const u32 gMonPalette_ZarudeDada[];
 extern const u32 gMonPalette_CalyrexIceRider[];
 extern const u32 gMonPalette_CalyrexShadowRider[];
 //extern const u32 gMonPalette_EnamorusTherian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -4116,7 +4304,11 @@ extern const u32 gMonShinyPalette_Groudon[];
 extern const u32 gMonShinyPalette_Rayquaza[];
 extern const u32 gMonShinyPalette_Jirachi[];
 extern const u32 gMonShinyPalette_Deoxys[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_Turtwig[];
 extern const u32 gMonShinyPalette_Grotle[];
 extern const u32 gMonShinyPalette_Torterra[];
@@ -4227,8 +4419,13 @@ extern const u32 gMonShinyPalette_Manaphy[];
 extern const u32 gMonShinyPalette_Darkrai[];
 extern const u32 gMonShinyPalette_Shaymin[];
 extern const u32 gMonShinyPalette_Arceus[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_Victini[];
 extern const u32 gMonShinyPalette_Snivy[];
 extern const u32 gMonShinyPalette_Servine[];
@@ -4388,8 +4585,13 @@ extern const u32 gMonShinyPalette_Kyurem[];
 extern const u32 gMonShinyPalette_Keldeo[];
 extern const u32 gMonShinyPalette_Meloetta[];
 extern const u32 gMonShinyPalette_Genesect[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_Chespin[];
 extern const u32 gMonShinyPalette_Quilladin[];
 extern const u32 gMonShinyPalette_Chesnaught[];
@@ -4463,8 +4665,13 @@ extern const u32 gMonShinyPalette_Zygarde[];
 extern const u32 gMonShinyPalette_Diancie[];
 extern const u32 gMonShinyPalette_Hoopa[];
 extern const u32 gMonShinyPalette_Volcanion[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_Rowlet[];
 extern const u32 gMonShinyPalette_Dartrix[];
 extern const u32 gMonShinyPalette_Decidueye[];
@@ -4553,8 +4760,13 @@ extern const u32 gMonShinyPalette_Blacephalon[];
 extern const u32 gMonShinyPalette_Zeraora[];
 extern const u32 gMonShinyPalette_Meltan[];
 extern const u32 gMonShinyPalette_Melmetal[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_Grookey[];
 extern const u32 gMonShinyPalette_Thwackey[];
 extern const u32 gMonShinyPalette_Rillaboom[];
@@ -4652,7 +4864,10 @@ extern const u32 gMonShinyPalette_Ursaluna[];
 //extern const u32 gMonShinyPalette_Sneasler[];
 extern const u32 gMonShinyPalette_Overqwil[];
 //extern const u32 gMonShinyPalette_Enamorus[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
 extern const u32 gMonShinyPalette_CharizardMegaY[];
@@ -4693,12 +4908,17 @@ extern const u32 gMonShinyPalette_SalamenceMega[];
 extern const u32 gMonShinyPalette_MetagrossMega[];
 extern const u32 gMonShinyPalette_LatiasMega[];
 extern const u32 gMonShinyPalette_LatiosMega[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_LopunnyMega[];
 extern const u32 gMonShinyPalette_GarchompMega[];
 extern const u32 gMonShinyPalette_LucarioMega[];
 extern const u32 gMonShinyPalette_AbomasnowMega[];
 extern const u32 gMonShinyPalette_GalladeMega[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
 extern const u32 gMonShinyPalette_AudinoMega[];
@@ -4706,6 +4926,15 @@ extern const u32 gMonShinyPalette_AudinoMega[];
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonShinyPalette_DiancieMega[];
 #endif
+=======
+
+
+extern const u32 gMonShinyPalette_AudinoMega[];
+
+
+extern const u32 gMonShinyPalette_DiancieMega[];
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_RayquazaMega[];
 extern const u32 gMonShinyPalette_KyogrePrimal[];
 extern const u32 gMonShinyPalette_GroudonPrimal[];
@@ -4742,12 +4971,20 @@ extern const u32 gMonShinyPalette_SlowkingGalarian[];
 extern const u32 gMonShinyPalette_CorsolaGalarian[];
 extern const u32 gMonShinyPalette_ZigzagoonGalarian[];
 extern const u32 gMonShinyPalette_LinooneGalarian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_DarumakaGalarian[];
 extern const u32 gMonShinyPalette_DarmanitanGalarian[];
 extern const u32 gMonShinyPalette_YamaskGalarian[];
 extern const u32 gMonShinyPalette_StunfiskGalarian[];
+<<<<<<< Updated upstream
 #endif
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_GrowlitheHisuian[];
 extern const u32 gMonShinyPalette_ArcanineHisuian[];
 extern const u32 gMonShinyPalette_VoltorbHisuian[];
@@ -4755,12 +4992,17 @@ extern const u32 gMonShinyPalette_ElectrodeHisuian[];
 extern const u32 gMonShinyPalette_TyphlosionHisuian[];
 extern const u32 gMonShinyPalette_QwilfishHisuian[];
 extern const u32 gMonShinyPalette_SneaselHisuian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 //extern const u32 gMonShinyPalette_SamurottHisuian[];
 extern const u32 gMonShinyPalette_LilligantHisuian[];
 extern const u32 gMonShinyPalette_ZoruaHisuian[];
 extern const u32 gMonShinyPalette_ZoroarkHisuian[];
 extern const u32 gMonShinyPalette_BraviaryHisuian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
 extern const u32 gMonShinyPalette_SliggooHisuian[];
@@ -4770,6 +5012,17 @@ extern const u32 gMonShinyPalette_AvaluggHisuian[];
 #if P_GEN_7_POKEMON == TRUE
 //extern const u32 gMonShinyPalette_DecidueyeHisuian[];
 #endif
+=======
+
+
+extern const u32 gMonShinyPalette_SliggooHisuian[];
+extern const u32 gMonShinyPalette_GoodraHisuian[];
+extern const u32 gMonShinyPalette_AvaluggHisuian[];
+
+
+//extern const u32 gMonShinyPalette_DecidueyeHisuian[];
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_PikachuCosplay[];
 extern const u32 gMonShinyPalette_PikachuRockStar[];
 extern const u32 gMonShinyPalette_PikachuBelle[];
@@ -4791,7 +5044,11 @@ extern const u32 gMonShinyPalette_CastformSnowy[];
 extern const u32 gMonShinyPalette_DeoxysAttack[];
 extern const u32 gMonShinyPalette_DeoxysDefense[];
 extern const u32 gMonShinyPalette_DeoxysSpeed[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_BurmySandyCloak[];
 extern const u32 gMonShinyPalette_BurmyTrashCloak[];
 extern const u32 gMonShinyPalette_WormadamSandyCloak[];
@@ -4825,8 +5082,13 @@ extern const u32 gMonShinyPalette_ArceusIce[];
 extern const u32 gMonShinyPalette_ArceusDragon[];
 extern const u32 gMonShinyPalette_ArceusDark[];
 extern const u32 gMonShinyPalette_ArceusFairy[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_BasculinBlueStriped[];
 extern const u32 gMonShinyPalette_BasculinWhiteStriped[];
 extern const u32 gMonShinyPalette_DarmanitanZenMode[];
@@ -4848,8 +5110,13 @@ extern const u32 gMonShinyPalette_GenesectDouseDrive[];
 extern const u32 gMonShinyPalette_GenesectShockDrive[];
 extern const u32 gMonShinyPalette_GenesectBurnDrive[];
 extern const u32 gMonShinyPalette_GenesectChillDrive[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_GreninjaAsh[];
 extern const u32 gMonShinyPalette_VivillonPolar[];
 extern const u32 gMonShinyPalette_VivillonTundra[];
@@ -4898,8 +5165,13 @@ extern const u32 gMonShinyPalette_XerneasActive[];
 extern const u32 gMonShinyPalette_Zygarde10[];
 extern const u32 gMonShinyPalette_ZygardeComplete[];
 extern const u32 gMonShinyPalette_HoopaUnbound[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_OricorioPomPom[];
 extern const u32 gMonShinyPalette_OricorioPau[];
 extern const u32 gMonShinyPalette_OricorioSensu[];
@@ -4929,8 +5201,13 @@ extern const u32 gMonShinyPalette_NecrozmaDuskMane[];
 extern const u32 gMonShinyPalette_NecrozmaDawnWings[];
 extern const u32 gMonShinyPalette_NecrozmaUltra[];
 extern const u32 gMonShinyPalette_MagearnaOriginalColor[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u32 gMonShinyPalette_CramorantGulping[];
 extern const u32 gMonShinyPalette_CramorantGorging[];
 extern const u32 gMonShinyPalette_ToxtricityLowKey[];
@@ -4953,7 +5230,10 @@ extern const u32 gMonShinyPalette_ZarudeDada[];
 extern const u32 gMonShinyPalette_CalyrexIceRider[];
 extern const u32 gMonShinyPalette_CalyrexShadowRider[];
 //extern const u32 gMonShinyPalette_EnamorusTherian[];
+<<<<<<< Updated upstream
 #endif
+=======
+>>>>>>> Stashed changes
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -5342,7 +5622,11 @@ extern const u8 gMonIcon_Groudon[];
 extern const u8 gMonIcon_Rayquaza[];
 extern const u8 gMonIcon_Jirachi[];
 extern const u8 gMonIcon_Deoxys[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Turtwig[];
 extern const u8 gMonIcon_Grotle[];
 extern const u8 gMonIcon_Torterra[];
@@ -5450,8 +5734,13 @@ extern const u8 gMonIcon_Manaphy[];
 extern const u8 gMonIcon_Darkrai[];
 extern const u8 gMonIcon_Shaymin[];
 extern const u8 gMonIcon_Arceus[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Victini[];
 extern const u8 gMonIcon_Snivy[];
 extern const u8 gMonIcon_Servine[];
@@ -5611,8 +5900,13 @@ extern const u8 gMonIcon_Kyurem[];
 extern const u8 gMonIcon_Keldeo[];
 extern const u8 gMonIcon_Meloetta[];
 extern const u8 gMonIcon_Genesect[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Chespin[];
 extern const u8 gMonIcon_Quilladin[];
 extern const u8 gMonIcon_Chesnaught[];
@@ -5686,8 +5980,13 @@ extern const u8 gMonIcon_Zygarde[];
 extern const u8 gMonIcon_Diancie[];
 extern const u8 gMonIcon_Hoopa[];
 extern const u8 gMonIcon_Volcanion[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Rowlet[];
 extern const u8 gMonIcon_Dartrix[];
 extern const u8 gMonIcon_Decidueye[];
@@ -5776,8 +6075,13 @@ extern const u8 gMonIcon_Blacephalon[];
 extern const u8 gMonIcon_Zeraora[];
 extern const u8 gMonIcon_Meltan[];
 extern const u8 gMonIcon_Melmetal[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Grookey[];
 extern const u8 gMonIcon_Thwackey[];
 extern const u8 gMonIcon_Rillaboom[];
@@ -5867,6 +6171,7 @@ extern const u8 gMonIcon_Regidrago[];
 extern const u8 gMonIcon_Glastrier[];
 extern const u8 gMonIcon_Spectrier[];
 extern const u8 gMonIcon_Calyrex[];
+<<<<<<< Updated upstream
 extern const u8 gMonIcon_Wyrdeer[];
 extern const u8 gMonIcon_Kleavor[];
 extern const u8 gMonIcon_Ursaluna[];
@@ -5876,6 +6181,16 @@ extern const u8 gMonIcon_Sneasler[];
 extern const u8 gMonIcon_Overqwil[];
 extern const u8 gMonIcon_Enamorus[];
 #endif
+=======
+//extern const u8 gMonIcon_Wyrdeer[];
+extern const u8 gMonIcon_Kleavor[];
+extern const u8 gMonIcon_Ursaluna[];
+//extern const u8 gMonIcon_Basculegion[];
+//extern const u8 gMonIcon_BasculegionF[];
+//extern const u8 gMonIcon_Sneasler[];
+extern const u8 gMonIcon_Overqwil[];
+//extern const u8 gMonIcon_Enamorus[];
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
 extern const u8 gMonIcon_CharizardMegaY[];
@@ -5916,12 +6231,17 @@ extern const u8 gMonIcon_SalamenceMega[];
 extern const u8 gMonIcon_MetagrossMega[];
 extern const u8 gMonIcon_LatiasMega[];
 extern const u8 gMonIcon_LatiosMega[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_LopunnyMega[];
 extern const u8 gMonIcon_GarchompMega[];
 extern const u8 gMonIcon_LucarioMega[];
 extern const u8 gMonIcon_AbomasnowMega[];
 extern const u8 gMonIcon_GalladeMega[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
 extern const u8 gMonIcon_AudinoMega[];
@@ -5929,6 +6249,15 @@ extern const u8 gMonIcon_AudinoMega[];
 #if P_GEN_6_POKEMON == TRUE
 extern const u8 gMonIcon_DiancieMega[];
 #endif
+=======
+
+
+extern const u8 gMonIcon_AudinoMega[];
+
+
+extern const u8 gMonIcon_DiancieMega[];
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_RayquazaMega[];
 extern const u8 gMonIcon_KyogrePrimal[];
 extern const u8 gMonIcon_GroudonPrimal[];
@@ -5965,12 +6294,20 @@ extern const u8 gMonIcon_SlowkingGalarian[];
 extern const u8 gMonIcon_CorsolaGalarian[];
 extern const u8 gMonIcon_ZigzagoonGalarian[];
 extern const u8 gMonIcon_LinooneGalarian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_DarumakaGalarian[];
 extern const u8 gMonIcon_DarmanitanGalarian[];
 extern const u8 gMonIcon_YamaskGalarian[];
 extern const u8 gMonIcon_StunfiskGalarian[];
+<<<<<<< Updated upstream
 #endif
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_GrowlitheHisuian[];
 extern const u8 gMonIcon_ArcanineHisuian[];
 extern const u8 gMonIcon_VoltorbHisuian[];
@@ -5978,12 +6315,17 @@ extern const u8 gMonIcon_ElectrodeHisuian[];
 extern const u8 gMonIcon_TyphlosionHisuian[];
 extern const u8 gMonIcon_QwilfishHisuian[];
 extern const u8 gMonIcon_SneaselHisuian[];
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_SamurottHisuian[];
 extern const u8 gMonIcon_LilligantHisuian[];
 extern const u8 gMonIcon_ZoruaHisuian[];
 extern const u8 gMonIcon_ZoroarkHisuian[];
 extern const u8 gMonIcon_BraviaryHisuian[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
 extern const u8 gMonIcon_SliggooHisuian[];
@@ -5993,6 +6335,17 @@ extern const u8 gMonIcon_AvaluggHisuian[];
 #if P_GEN_7_POKEMON == TRUE
 extern const u8 gMonIcon_DecidueyeHisuian[];
 #endif
+=======
+
+
+extern const u8 gMonIcon_SliggooHisuian[];
+extern const u8 gMonIcon_GoodraHisuian[];
+extern const u8 gMonIcon_AvaluggHisuian[];
+
+
+extern const u8 gMonIcon_DecidueyeHisuian[];
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_PikachuCosplay[];
 extern const u8 gMonIcon_PikachuRockStar[];
 extern const u8 gMonIcon_PikachuBelle[];
@@ -6040,7 +6393,11 @@ extern const u8 gMonIcon_CastformSnowy[];
 extern const u8 gMonIcon_DeoxysAttack[];
 extern const u8 gMonIcon_DeoxysDefense[];
 extern const u8 gMonIcon_DeoxysSpeed[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_BurmySandyCloak[];
 extern const u8 gMonIcon_BurmyTrashCloak[];
 extern const u8 gMonIcon_WormadamSandyCloak[];
@@ -6057,8 +6414,13 @@ extern const u8 gMonIcon_DialgaOrigin[];
 extern const u8 gMonIcon_PalkiaOrigin[];
 extern const u8 gMonIcon_GiratinaOrigin[];
 extern const u8 gMonIcon_ShayminSky[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_BasculinBlueStriped[];
 extern const u8 gMonIcon_BasculinWhiteStriped[];
 extern const u8 gMonIcon_DarmanitanZenMode[];
@@ -6076,8 +6438,13 @@ extern const u8 gMonIcon_KyuremWhite[];
 extern const u8 gMonIcon_KyuremBlack[];
 extern const u8 gMonIcon_KeldeoResolute[];
 extern const u8 gMonIcon_MeloettaPirouette[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_GreninjaAsh[];
 extern const u8 gMonIcon_VivillonPolar[];
 extern const u8 gMonIcon_VivillonTundra[];
@@ -6126,8 +6493,13 @@ extern const u8 gMonIcon_XerneasActive[];
 extern const u8 gMonIcon_Zygarde10[];
 extern const u8 gMonIcon_ZygardeComplete[];
 extern const u8 gMonIcon_HoopaUnbound[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_OricorioPomPom[];
 extern const u8 gMonIcon_OricorioPau[];
 extern const u8 gMonIcon_OricorioSensu[];
@@ -6146,8 +6518,13 @@ extern const u8 gMonIcon_NecrozmaDuskMane[];
 extern const u8 gMonIcon_NecrozmaDawnWings[];
 extern const u8 gMonIcon_NecrozmaUltra[];
 extern const u8 gMonIcon_MagearnaOriginalColor[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_CramorantGulping[];
 extern const u8 gMonIcon_CramorantGorging[];
 extern const u8 gMonIcon_ToxtricityLowKey[];
@@ -6168,8 +6545,12 @@ extern const u8 gMonIcon_EternatusEternamax[];
 extern const u8 gMonIcon_ZarudeDada[];
 extern const u8 gMonIcon_CalyrexIceRider[];
 extern const u8 gMonIcon_CalyrexShadowRider[];
+<<<<<<< Updated upstream
 extern const u8 gMonIcon_EnamorusTherian[];
 #endif
+=======
+//extern const u8 gMonIcon_EnamorusTherian[];
+>>>>>>> Stashed changes
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -6559,7 +6940,11 @@ extern const u8 gMonFootprint_Latios[];
 extern const u8 gMonFootprint_Jirachi[];
 extern const u8 gMonFootprint_Deoxys[];
 extern const u8 gMonFootprint_Chimecho[];
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
 extern const u8 gMonFootprint_Turtwig[];
 extern const u8 gMonFootprint_Grotle[];
 extern const u8 gMonFootprint_Torterra[];
@@ -6667,8 +7052,13 @@ extern const u8 gMonFootprint_Manaphy[];
 extern const u8 gMonFootprint_Darkrai[];
 extern const u8 gMonFootprint_Shaymin[];
 extern const u8 gMonFootprint_Arceus[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonFootprint_Victini[];
 extern const u8 gMonFootprint_Snivy[];
 extern const u8 gMonFootprint_Servine[];
@@ -6825,8 +7215,13 @@ extern const u8 gMonFootprint_Kyurem[];
 extern const u8 gMonFootprint_Keldeo[];
 extern const u8 gMonFootprint_Meloetta[];
 extern const u8 gMonFootprint_Genesect[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonFootprint_Chespin[];
 extern const u8 gMonFootprint_Quilladin[];
 extern const u8 gMonFootprint_Chesnaught[];
@@ -6899,8 +7294,13 @@ extern const u8 gMonFootprint_Zygarde[];
 extern const u8 gMonFootprint_Diancie[];
 extern const u8 gMonFootprint_Hoopa[];
 extern const u8 gMonFootprint_Volcanion[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonFootprint_Rowlet[];
 extern const u8 gMonFootprint_Dartrix[];
 extern const u8 gMonFootprint_Decidueye[];
@@ -6989,8 +7389,13 @@ extern const u8 gMonFootprint_Blacephalon[];
 extern const u8 gMonFootprint_Zeraora[];
 extern const u8 gMonFootprint_Meltan[];
 extern const u8 gMonFootprint_Melmetal[];
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
 extern const u8 gMonFootprint_Grookey[];
 extern const u8 gMonFootprint_Thwackey[];
 extern const u8 gMonFootprint_Rillaboom[];
@@ -7087,7 +7492,11 @@ extern const u8 gMonFootprint_Calyrex[];
 //extern const u8 gMonFootprint_Sneasler[];
 //extern const u8 gMonFootprint_Overqwil[];
 //extern const u8 gMonFootprint_Enamorus[];
+<<<<<<< Updated upstream
 #endif
+=======
+
+>>>>>>> Stashed changes
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];

@@ -1053,11 +1053,15 @@ void Bike_HandleBumpySlopeJump(void)
 
 bool32 IsRunningDisallowed(u8 metatile)
 {
+<<<<<<< Updated upstream
 #if OW_RUNNING_INDOORS == GEN_3
     if (!gMapHeader.allowRunning || IsRunningDisallowedByMetatile(metatile) == TRUE)
 #else
     if (IsRunningDisallowedByMetatile(metatile) == TRUE)
 #endif
+=======
+    if (IsRunningDisallowedByMetatile(metatile) == TRUE)
+>>>>>>> Stashed changes
         return TRUE;
     else
         return FALSE;

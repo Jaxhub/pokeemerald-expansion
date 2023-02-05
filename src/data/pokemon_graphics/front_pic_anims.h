@@ -10315,6 +10315,7 @@ static const union AnimCmd sAnim_PALKIA_ORIGIN_1[] =
 };
 
 static const union AnimCmd sAnim_GIRATINA_ORIGIN_1[] =
+<<<<<<< Updated upstream
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(1, 10),
@@ -10404,6 +10405,8 @@ static const union AnimCmd sAnim_KYUREM_WHITE_1[] =
 };
 
 static const union AnimCmd sAnim_KELDEO_RESOLUTE_1[] =
+=======
+>>>>>>> Stashed changes
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_FRAME(1, 36),
@@ -10423,8 +10426,13 @@ static const union AnimCmd sAnim_MELOETTA_PIROUETTE_1[] =
 };
 #endif
 
+<<<<<<< Updated upstream
 #if P_GEN_6_POKEMON == TRUE
 static const union AnimCmd sAnim_AEGISLASH_BLADE_1[] =
+=======
+#if P_GEN_5_POKEMON == TRUE
+static const union AnimCmd sAnim_DARMANITAN_ZEN_MODE_1[] =
+>>>>>>> Stashed changes
 {
     ANIMCMD_FRAME(0, 18),
     ANIMCMD_FRAME(1, 18),
@@ -10434,7 +10442,11 @@ static const union AnimCmd sAnim_AEGISLASH_BLADE_1[] =
     ANIMCMD_END,
 };
 
+<<<<<<< Updated upstream
 static const union AnimCmd sAnim_ZYGARDE_10_1[] =
+=======
+static const union AnimCmd sAnim_DARMANITAN_ZEN_MODE_GALARIAN_1[] =
+>>>>>>> Stashed changes
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(1, 10),
@@ -10442,7 +10454,11 @@ static const union AnimCmd sAnim_ZYGARDE_10_1[] =
     ANIMCMD_END,
 };
 
+<<<<<<< Updated upstream
 static const union AnimCmd sAnim_ZYGARDE_COMPLETE_1[] =
+=======
+static const union AnimCmd sAnim_TORNADUS_THERIAN_1[] =
+>>>>>>> Stashed changes
 {
     ANIMCMD_FRAME(0, 12),
     ANIMCMD_FRAME(1, 45),
@@ -10450,10 +10466,102 @@ static const union AnimCmd sAnim_ZYGARDE_COMPLETE_1[] =
     ANIMCMD_END,
 };
 
+<<<<<<< Updated upstream
 static const union AnimCmd sAnim_HOOPA_UNBOUND_1[] =
+=======
+static const union AnimCmd sAnim_THUNDURUS_THERIAN_1[] =
+>>>>>>> Stashed changes
 {
     ANIMCMD_FRAME(1, 20),
     ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+#endif
+
+<<<<<<< Updated upstream
+#if P_GEN_7_POKEMON == TRUE
+static const union AnimCmd sAnim_MINIOR_CORE_1[] =
+=======
+static const union AnimCmd sAnim_LANDORUS_THERIAN_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+<<<<<<< Updated upstream
+static const union AnimCmd sAnim_WISHIWASHI_SCHOOL_1[] =
+=======
+static const union AnimCmd sAnim_KYUREM_BLACK_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+<<<<<<< Updated upstream
+static const union AnimCmd sAnim_MIMIKYU_BUSTED_1[] =
+=======
+static const union AnimCmd sAnim_KYUREM_WHITE_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+<<<<<<< Updated upstream
+static const union AnimCmd sAnim_LYCANROC_MIDNIGHT_1[] =
+=======
+static const union AnimCmd sAnim_KELDEO_RESOLUTE_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+<<<<<<< Updated upstream
+static const union AnimCmd sAnim_LYCANROC_DUSK_1[] =
+=======
+static const union AnimCmd sAnim_MELOETTA_PIROUETTE_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+#endif
+
+<<<<<<< Updated upstream
+#if P_GEN_8_POKEMON == TRUE
+static const union AnimCmd sAnim_ENAMORUS_THERIAN_1[] =
+=======
+#if P_GEN_6_POKEMON == TRUE
+static const union AnimCmd sAnim_AEGISLASH_BLADE_1[] =
+>>>>>>> Stashed changes
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+#endif
+
+<<<<<<< Updated upstream
+static const union AnimCmd *const sAnims_NONE[] =
+{
+=======
+static const union AnimCmd sAnim_ZYGARDE_10_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_ZYGARDE_COMPLETE_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_HOOPA_UNBOUND_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 #endif
@@ -10500,6 +10608,7 @@ static const union AnimCmd sAnim_ENAMORUS_THERIAN_1[] =
 
 static const union AnimCmd *const sAnims_NONE[] =
 {
+>>>>>>> Stashed changes
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
 };
@@ -13260,7 +13369,10 @@ static const union AnimCmd *const sAnims_CHERUBI[] =
 
 static const union AnimCmd *const sAnims_CHERRIM[] =
 {
+<<<<<<< Updated upstream
     sAnim_GeneralFrame0,
+=======
+>>>>>>> Stashed changes
     sAnim_CHERRIM_NORMAL,
     sAnim_CHERRIM_NORMAL_2,
 };
@@ -14742,11 +14854,14 @@ static const union AnimCmd *const sAnims_GRENINJA[] =
     sAnim_GRENINJA_1,
 };
 
+<<<<<<< Updated upstream
 static const union AnimCmd *const sAnims_GRENINJA_ASH[] ={
     sAnim_GeneralFrame0,
     sAnim_GRENINJA_ASH_1,
 };
 
+=======
+>>>>>>> Stashed changes
 static const union AnimCmd *const sAnims_BUNNELBY[] =
 {
     sAnim_GeneralFrame0,
@@ -16997,7 +17112,10 @@ static const union AnimCmd *const sAnims_GIRATINA_ORIGIN[] =
 {
     sAnim_GeneralFrame0,
     sAnim_GIRATINA_ORIGIN_1,
+<<<<<<< Updated upstream
     sAnim_GIRATINA_ORIGIN_2,
+=======
+>>>>>>> Stashed changes
 };
 
 static const union AnimCmd *const sAnims_SHAYMIN_SKY[] =
@@ -17024,6 +17142,7 @@ static const union AnimCmd *const sAnims_TORNADUS_THERIAN[] =
 {
     sAnim_GeneralFrame0,
     sAnim_TORNADUS_THERIAN_1,
+<<<<<<< Updated upstream
 };
 
 static const union AnimCmd *const sAnims_THUNDURUS_THERIAN[] =
@@ -17060,9 +17179,67 @@ static const union AnimCmd *const sAnims_MELOETTA_PIROUETTE[] =
 {
     sAnim_GeneralFrame0,
     sAnim_MELOETTA_PIROUETTE_1,
+=======
+};
+
+static const union AnimCmd *const sAnims_THUNDURUS_THERIAN[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_THUNDURUS_THERIAN_1,
+};
+
+static const union AnimCmd *const sAnims_LANDORUS_THERIAN[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_LANDORUS_THERIAN_1,
+};
+
+static const union AnimCmd *const sAnims_KYUREM_BLACK[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_KYUREM_BLACK_1,
+};
+
+static const union AnimCmd *const sAnims_KYUREM_WHITE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_KYUREM_WHITE_1,
+};
+
+static const union AnimCmd *const sAnims_KELDEO_RESOLUTE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_KELDEO_RESOLUTE_1,
+>>>>>>> Stashed changes
 };
 #endif
 
+<<<<<<< Updated upstream
+#if P_GEN_6_POKEMON == TRUE
+static const union AnimCmd *const sAnims_AEGISLASH_BLADE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_AEGISLASH_BLADE_1,
+=======
+static const union AnimCmd *const sAnims_MELOETTA_PIROUETTE[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_MELOETTA_PIROUETTE_1,
+>>>>>>> Stashed changes
+};
+#endif
+
+<<<<<<< Updated upstream
+static const union AnimCmd *const sAnims_ZYGARDE_10[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_ZYGARDE_10_1,
+};
+
+static const union AnimCmd *const sAnims_ZYGARDE_COMPLETE[] =
+{
+    sAnim_GeneralFrame0,
+=======
 #if P_GEN_6_POKEMON == TRUE
 static const union AnimCmd *const sAnims_AEGISLASH_BLADE[] =
 {
@@ -17079,6 +17256,7 @@ static const union AnimCmd *const sAnims_ZYGARDE_10[] =
 static const union AnimCmd *const sAnims_ZYGARDE_COMPLETE[] =
 {
     sAnim_GeneralFrame0,
+>>>>>>> Stashed changes
     sAnim_ZYGARDE_COMPLETE_1,
 };
 
@@ -17106,7 +17284,31 @@ static const union AnimCmd *const sAnims_MIMIKYU_BUSTED[] =
 {
     sAnim_GeneralFrame0,
     sAnim_MIMIKYU_BUSTED_1,
+<<<<<<< Updated upstream
+=======
 };
+
+static const union AnimCmd *const sAnims_LYCANROC_MIDNIGHT[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_LYCANROC_MIDNIGHT_1,
+};
+
+static const union AnimCmd *const sAnims_LYCANROC_DUSK[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_LYCANROC_DUSK_1,
+};
+#endif
+
+#if P_GEN_8_POKEMON == TRUE
+static const union AnimCmd *const sAnims_ENAMORUS_THERIAN[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_ENAMORUS_THERIAN_1,
+>>>>>>> Stashed changes
+};
+#endif
 
 static const union AnimCmd *const sAnims_LYCANROC_MIDNIGHT[] =
 {

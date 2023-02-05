@@ -63,6 +63,7 @@ static bool8 IsCoordInIncomingConnectingMap(int coord, int srcMax, int destMax, 
 
 #define GetMapGridBlockAt(x, y) (AreCoordsWithinMapGridBounds(x, y) ? gBackupMapLayout.map[x + gBackupMapLayout.width * y] : GetBorderBlockAt(x, y))
 
+
 struct MapHeader const *const GetMapHeaderFromConnection(struct MapConnection *connection)
 {
     return Overworld_GetMapHeaderByGroupAndId(connection->mapGroup, connection->mapNum);
@@ -340,6 +341,16 @@ static void FillEastConnection(struct MapHeader const *mapHeader, struct MapHead
             /*x2*/ 0, y2,
             /*width*/ MAP_OFFSET + 1, height);
     }
+}
+
+u8 MapGridGetZCoordAt(int x, int y)
+{
+    u16 block = GetMapGridBlockAt(x, y);
+
+    if (block == MAPGRID_UNDEFINED)
+        return 0;
+
+    return block >> METATILE_ATTR_LAYER_SHIFT;
 }
 
 u8 MapGridGetElevationAt(int x, int y)

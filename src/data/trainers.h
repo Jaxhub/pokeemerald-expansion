@@ -128,9 +128,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerName = _("GRUNT"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntPetalburgWoods),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_GruntPetalburgWoods),
+        .party = {.NoItemDefaultMoves = sParty_GruntPetalburgWoods},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_MARCEL] =
@@ -200,9 +207,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerName = _("GRUNT"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntRusturfTunnel),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_GruntRusturfTunnel),
+        .party = {.NoItemDefaultMoves = sParty_GruntRusturfTunnel},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_GRUNT_WEATHER_INST_1] =
@@ -248,9 +262,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerName = _("GRUNT"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntMuseum1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_GruntMuseum1),
+        .party = {.NoItemDefaultMoves = sParty_GruntMuseum1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_GRUNT_MUSEUM_2] =
@@ -260,9 +281,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerName = _("GRUNT"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_GruntMuseum2),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_GruntMuseum2),
+        .party = {.NoItemDefaultMoves = sParty_GruntMuseum2},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_GRUNT_SPACE_CENTER_1] =
@@ -692,9 +720,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_TUBER_F,
         .trainerName = _("LOLA"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Lola1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Lola1),
+        .party = {.NoItemDefaultMoves = sParty_Lola1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_AUSTINA] =
@@ -776,9 +811,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("RICKY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_Ricky1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Ricky1),
+        .party = {.NoItemCustomMoves = sParty_Ricky1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_SIMON] =
@@ -788,9 +830,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("SIMON"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Simon),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Simon),
+        .party = {.NoItemDefaultMoves = sParty_Simon},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_CHARLIE] =
@@ -1376,9 +1425,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LADY,
         .trainerName = _("CINDY"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_Cindy1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Cindy1),
+        .party = {.ItemDefaultMoves = sParty_Cindy1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_DAPHNE] =
@@ -1640,9 +1696,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_RICH_BOY,
         .trainerName = _("WINSTON"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_Winston1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Winston1),
+        .party = {.ItemDefaultMoves = sParty_Winston1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_MOLLIE] =
@@ -2156,9 +2219,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .trainerName = _("TAKAO"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Takao),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Takao),
+        .party = {.NoItemDefaultMoves = sParty_Takao},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_HITOSHI] =
@@ -3188,9 +3258,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
         .trainerName = _("ROXANNE"),
         .items = {ITEM_POTION, ITEM_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Roxanne1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
+        .partySize = ARRAY_COUNT(sParty_Roxanne1),
+        .party = {.ItemCustomMoves = sParty_Roxanne1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_BRAWLY_1] =
@@ -3200,9 +3277,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
         .trainerName = _("BRAWLY"),
         .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Brawly1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_RISKY | AI_FLAG_SMART_SWITCHING,
+        .partySize = ARRAY_COUNT(sParty_Brawly1),
+        .party = {.ItemCustomMoves = sParty_Brawly1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_WATTSON_1] =
@@ -3212,9 +3296,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_WATTSON,
         .trainerName = _("WATTSON"),
         .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Wattson1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_PREFER_BATON_PASS | AI_FLAG_SMART_SWITCHING,
+        .partySize = ARRAY_COUNT(sParty_Wattson1),
+        .party = {.ItemCustomMoves = sParty_Wattson1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_FLANNERY_1] =
@@ -3224,9 +3315,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
         .trainerName = _("FLANNERY"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Flannery1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_PREFER_STRONGEST_MOVE | AI_FLAG_SMART_SWITCHING,
+        .partySize = ARRAY_COUNT(sParty_Flannery1),
+        .party = {.ItemCustomMoves = sParty_Flannery1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_NORMAN_1] =
@@ -3236,9 +3334,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_NORMAN,
         .trainerName = _("NORMAN"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Norman1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SMART_SWITCHING | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_SCREENER,
+        .partySize = ARRAY_COUNT(sParty_Norman1),
+        .party = {.ItemCustomMoves = sParty_Norman1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_WINONA_1] =
@@ -3248,9 +3353,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_WINONA,
         .trainerName = _("WINONA"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_RISKY,
         .party = ITEM_CUSTOM_MOVES(sParty_Winona1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_RISKY | AI_FLAG_SMART_SWITCHING | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_PREFER_STRONGEST_MOVE,
+        .partySize = ARRAY_COUNT(sParty_Winona1),
+        .party = {.ItemCustomMoves = sParty_Winona1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_TATE_AND_LIZA_1] =
@@ -3261,8 +3373,14 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TATE&LIZA"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION},
         .doubleBattle = TRUE,
+<<<<<<< Updated upstream
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_TateAndLiza1),
+=======
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SMART_SWITCHING | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_WILL_SUICIDE | AI_FLAG_RISKY, 
+        .partySize = ARRAY_COUNT(sParty_TateAndLiza1),
+        .party = {.ItemCustomMoves = sParty_TateAndLiza1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JUAN_1] =
@@ -3272,9 +3390,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_JUAN,
         .trainerName = _("JUAN"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Juan1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SMART_SWITCHING | AI_FLAG_DOUBLE_BATTLE | AI_FLAG_HP_AWARE | AI_FLAG_PREFER_STRONGEST_MOVE,
+        .partySize = ARRAY_COUNT(sParty_Juan1),
+        .party = {.ItemCustomMoves = sParty_Juan1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JERRY_1] =
@@ -3284,9 +3409,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .trainerName = _("JERRY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Jerry1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags =AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Jerry1),
+        .party = {.NoItemDefaultMoves = sParty_Jerry1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_TED] =
@@ -3368,9 +3500,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SCHOOL_KID_F,
         .trainerName = _("KAREN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Karen1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Karen1),
+        .party = {.NoItemDefaultMoves = sParty_Karen1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_GEORGIA] =
@@ -3824,9 +3963,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("CALVIN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Calvin1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Calvin1),
+        .party = {.NoItemDefaultMoves = sParty_Calvin1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_BILLY] =
@@ -3836,9 +3982,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("BILLY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Billy),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Billy),
+        .party = {.NoItemDefaultMoves = sParty_Billy},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JOSH] =
@@ -3848,9 +4001,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("JOSH"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_Josh),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Josh),
+        .party = {.NoItemCustomMoves = sParty_Josh},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_TOMMY] =
@@ -3860,9 +4020,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("TOMMY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Tommy),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Tommy),
+        .party = {.NoItemDefaultMoves = sParty_Tommy},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JOEY] =
@@ -3872,9 +4039,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("JOEY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Joey),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Joey),
+        .party = {.NoItemDefaultMoves = sParty_Joey},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_BEN] =
@@ -4004,9 +4178,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("ALLEN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Allen),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Allen),
+        .party = {.NoItemDefaultMoves = sParty_Allen},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_TIMMY] =
@@ -4052,9 +4233,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .trainerName = _("IVAN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Ivan),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Ivan),
+        .party = {.NoItemDefaultMoves = sParty_Ivan},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_CLAUDE] =
@@ -4076,9 +4264,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .trainerName = _("ELLIOT"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Elliot1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Elliot1),
+        .party = {.NoItemDefaultMoves = sParty_Elliot1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_NED] =
@@ -4088,9 +4283,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .trainerName = _("NED"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Ned),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Ned),
+        .party = {.NoItemDefaultMoves = sParty_Ned},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_DALE] =
@@ -5108,9 +5310,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
         .trainerName = _("JOCELYN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Jocelyn),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Jocelyn),
+        .party = {.NoItemDefaultMoves = sParty_Jocelyn},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_LAURA] =
@@ -5120,9 +5329,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
         .trainerName = _("LAURA"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Laura),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Laura),
+        .party = {.NoItemDefaultMoves = sParty_Laura},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_CYNDY_1] =
@@ -5805,8 +6021,14 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GINA & MIA"),
         .items = {},
         .doubleBattle = TRUE,
+<<<<<<< Updated upstream
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_GinaAndMia1),
+=======
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_GinaAndMia1),
+        .party = {.NoItemDefaultMoves = sParty_GinaAndMia1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_MIU_AND_YUKI] =
@@ -5888,9 +6110,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SAILOR,
         .trainerName = _("HUEY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Huey),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Huey),
+        .party = {.NoItemDefaultMoves = sParty_Huey},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_EDMOND] =
@@ -5900,9 +6129,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SAILOR,
         .trainerName = _("EDMOND"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Edmond),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Edmond),
+        .party = {.NoItemDefaultMoves = sParty_Edmond},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_ERNEST_1] =
@@ -5924,9 +6160,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SAILOR,
         .trainerName = _("DWAYNE"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Dwayne),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Dwayne),
+        .party = {.NoItemDefaultMoves = sParty_Dwayne},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_PHILLIP] =
@@ -6248,7 +6491,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BRENDAN,
         .trainerName = _("BRENDAN"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BrendanRoute103Mudkip),
     },
@@ -6284,7 +6527,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BRENDAN,
         .trainerName = _("BRENDAN"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BrendanRoute103Treecko),
     },
@@ -6320,7 +6563,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BRENDAN,
         .trainerName = _("BRENDAN"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BrendanRoute103Torchic),
     },
@@ -6356,7 +6599,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_MAY,
         .trainerName = _("MAY"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_MayRoute103Mudkip),
     },
@@ -6392,7 +6635,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_MAY,
         .trainerName = _("MAY"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_MayRoute103Treecko),
     },
@@ -6428,7 +6671,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_MAY,
         .trainerName = _("MAY"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_MayRoute103Torchic),
     },
@@ -6860,9 +7103,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("MARC"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Marc),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Marc),
+        .party = {.NoItemDefaultMoves = sParty_Marc},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_BRENDEN] =
@@ -6872,9 +7122,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_SAILOR,
         .trainerName = _("BRENDEN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Brenden),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Brenden),
+        .party = {.NoItemDefaultMoves = sParty_Brenden},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_LILITH] =
@@ -6884,9 +7141,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
         .trainerName = _("LILITH"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Lilith),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Lilith),
+        .party = {.NoItemDefaultMoves = sParty_Lilith},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_CRISTIAN] =
@@ -6896,9 +7160,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .trainerName = _("CRISTIAN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Cristian),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Cristian),
+        .party = {.NoItemDefaultMoves = sParty_Cristian},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_SYLVIA] =
@@ -7244,9 +7515,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LASS,
         .trainerName = _("TIANA"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Tiana),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Tiana),
+        .party = {.NoItemDefaultMoves = sParty_Tiana},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_HALEY_1] =
@@ -7256,9 +7534,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LASS,
         .trainerName = _("HALEY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Haley1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Haley1),
+        .party = {.NoItemDefaultMoves = sParty_Haley1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JANICE] =
@@ -7268,9 +7553,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LASS,
         .trainerName = _("JANICE"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Janice),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Janice),
+        .party = {.NoItemDefaultMoves = sParty_Janice},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_VIVI] =
@@ -7388,9 +7680,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .trainerName = _("RICK"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Rick),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Rick),
+        .party = {.NoItemDefaultMoves = sParty_Rick},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_LYLE] =
@@ -7400,9 +7699,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .trainerName = _("LYLE"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Lyle),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Lyle),
+        .party = {.NoItemDefaultMoves = sParty_Lyle},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JOSE] =
@@ -7412,9 +7718,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .trainerName = _("JOSE"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Jose),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Jose),
+        .party = {.NoItemDefaultMoves = sParty_Jose},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_DOUG] =
@@ -7460,9 +7773,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .trainerName = _("JAMES"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_James1),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_James1),
+        .party = {.NoItemDefaultMoves = sParty_James1},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JAMES_2] =
@@ -7580,9 +7900,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("CLARK"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Clark),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Clark),
+        .party = {.NoItemDefaultMoves = sParty_Clark},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_ERIC] =
@@ -7772,9 +8099,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_BEAUTY,
         .trainerName = _("JOHANNA"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Johanna),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Johanna),
+        .party = {.NoItemDefaultMoves = sParty_Johanna},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_GERALD] =
@@ -8336,9 +8670,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_RICH_BOY,
         .trainerName = _("DAWSON"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_Dawson),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Dawson),
+        .party = {.ItemDefaultMoves = sParty_Dawson},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_SARAH] =
@@ -8348,9 +8689,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LADY,
         .trainerName = _("SARAH"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = ITEM_DEFAULT_MOVES(sParty_Sarah),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Sarah),
+        .party = {.ItemDefaultMoves = sParty_Sarah},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_DARIAN] =
@@ -8360,9 +8708,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .trainerName = _("DARIAN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Darian),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Darian),
+        .party = {.NoItemDefaultMoves = sParty_Darian},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_HAILEY] =
@@ -8372,9 +8727,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_TUBER_F,
         .trainerName = _("HAILEY"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Hailey),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Hailey),
+        .party = {.NoItemDefaultMoves = sParty_Hailey},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_CHANDLER] =
@@ -8384,9 +8746,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("CHANDLER"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Chandler),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Chandler),
+        .party = {.NoItemDefaultMoves = sParty_Chandler},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_KALEB] =
@@ -9044,9 +9413,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_HIKER,
         .trainerName = _("DEVAN"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Devan),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Devan),
+        .party = {.NoItemDefaultMoves = sParty_Devan},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_JOHNSON] =
@@ -9056,9 +9432,16 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .trainerName = _("JOHNSON"),
         .items = {},
+<<<<<<< Updated upstream
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Johnson),
+=======
+        .doubleBattle = TRUE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_DOUBLE_BATTLE,
+        .partySize = ARRAY_COUNT(sParty_Johnson),
+        .party = {.NoItemDefaultMoves = sParty_Johnson},
+>>>>>>> Stashed changes
     },
 
     [TRAINER_MELINA] =

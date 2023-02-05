@@ -4,6 +4,10 @@
 #include "coord_event_weather.h"
 #include "daycare.h"
 #include "debug.h"
+<<<<<<< Updated upstream
+=======
+#include "dexnav.h"
+>>>>>>> Stashed changes
 #include "faraway_island.h"
 #include "event_data.h"
 #include "event_object_movement.h"
@@ -105,6 +109,8 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
                 input->pressedAButton = TRUE;
             if (newKeys & B_BUTTON)
                 input->pressedBButton = TRUE;
+            if (newKeys & R_BUTTON && !FlagGet(FLAG_SYS_DEXNAV_SEARCH))
+                input->pressedRButton = TRUE;
         }
 
         if (heldKeys & (DPAD_UP | DPAD_DOWN | DPAD_LEFT | DPAD_RIGHT))
@@ -130,6 +136,7 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
         input->dpadDirection = DIR_WEST;
     else if (heldKeys & DPAD_RIGHT)
         input->dpadDirection = DIR_EAST;
+<<<<<<< Updated upstream
 
 #if DEBUG_SYSTEM_ENABLE == TRUE && DEBUG_SYSTEM_IN_MENU == FALSE
     if ((heldKeys & DEBUG_SYSTEM_HELD_KEYS) && input->DEBUG_SYSTEM_TRIGGER_EVENT)
@@ -138,6 +145,15 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
         input->DEBUG_SYSTEM_TRIGGER_EVENT = FALSE;
     }
 #endif
+=======
+    #if DEBUGGING
+        if ((heldKeys & R_BUTTON) && input->pressedStartButton)
+        {
+            input->input_field_1_2 = TRUE;
+            input->pressedStartButton = FALSE;
+        }
+    #endif
+>>>>>>> Stashed changes
 }
 
 int ProcessPlayerFieldInput(struct FieldInput *input)
@@ -197,6 +213,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     if (input->pressedSelectButton && UseRegisteredKeyItemOnField() == TRUE)
         return TRUE;
 
+<<<<<<< Updated upstream
 #if DEBUG_SYSTEM_ENABLE == TRUE && DEBUG_SYSTEM_IN_MENU == FALSE
     if (input->input_field_1_2)
     {
@@ -206,6 +223,19 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
     }
 #endif
+=======
+    if (input->pressedRButton && TryStartDexnavSearch())
+        return TRUE;
+        
+    #if DEBUGGING
+        if (input->input_field_1_2)
+        {
+            PlaySE(SE_WIN_OPEN);
+            Debug_ShowMainMenu();
+            return TRUE;
+        }
+    #endif
+>>>>>>> Stashed changes
 
     return FALSE;
 }

@@ -387,7 +387,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(JIRACHI, gMonFrontPic_Jirachi),
     SPECIES_SPRITE(DEOXYS, gMonFrontPic_Deoxys),
     SPECIES_SPRITE(CHIMECHO, gMonFrontPic_Chimecho),
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(TURTWIG, gMonFrontPic_Turtwig),
     SPECIES_SPRITE(GROTLE, gMonFrontPic_Grotle),
     SPECIES_SPRITE(TORTERRA, gMonFrontPic_Torterra),
@@ -495,8 +499,13 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(DARKRAI, gMonFrontPic_Darkrai),
     SPECIES_SPRITE(SHAYMIN, gMonFrontPic_Shaymin),
     SPECIES_SPRITE(ARCEUS, gMonFrontPic_Arceus),
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(VICTINI, gMonFrontPic_Victini),
     SPECIES_SPRITE(SNIVY, gMonFrontPic_Snivy),
     SPECIES_SPRITE(SERVINE, gMonFrontPic_Servine),
@@ -653,8 +662,13 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(KELDEO, gMonFrontPic_Keldeo),
     SPECIES_SPRITE(MELOETTA, gMonFrontPic_Meloetta),
     SPECIES_SPRITE(GENESECT, gMonFrontPic_Genesect),
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(CHESPIN, gMonFrontPic_Chespin),
     SPECIES_SPRITE(QUILLADIN, gMonFrontPic_Quilladin),
     SPECIES_SPRITE(CHESNAUGHT, gMonFrontPic_Chesnaught),
@@ -727,8 +741,13 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(DIANCIE, gMonFrontPic_Diancie),
     SPECIES_SPRITE(HOOPA, gMonFrontPic_Hoopa),
     SPECIES_SPRITE(VOLCANION, gMonFrontPic_Volcanion),
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(ROWLET, gMonFrontPic_Rowlet),
     SPECIES_SPRITE(DARTRIX, gMonFrontPic_Dartrix),
     SPECIES_SPRITE(DECIDUEYE, gMonFrontPic_Decidueye),
@@ -915,7 +934,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(SNEASLER, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_Sneasler),
     SPECIES_SPRITE(OVERQWIL, gMonFrontPic_Overqwil),
     SPECIES_SPRITE(ENAMORUS, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_Enamorus),
+<<<<<<< Updated upstream
 #endif
+=======
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(VENUSAUR_MEGA, gMonFrontPic_VenusaurMega),
     SPECIES_SPRITE(CHARIZARD_MEGA_X, gMonFrontPic_CharizardMegaX),
     SPECIES_SPRITE(CHARIZARD_MEGA_Y, gMonFrontPic_CharizardMegaY),
@@ -956,19 +979,32 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(METAGROSS_MEGA, gMonFrontPic_MetagrossMega),
     SPECIES_SPRITE(LATIAS_MEGA, gMonFrontPic_LatiasMega),
     SPECIES_SPRITE(LATIOS_MEGA, gMonFrontPic_LatiosMega),
+<<<<<<< Updated upstream
 #if P_GEN_4_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(LOPUNNY_MEGA, gMonFrontPic_LopunnyMega),
     SPECIES_SPRITE(GARCHOMP_MEGA, gMonFrontPic_GarchompMega),
     SPECIES_SPRITE(LUCARIO_MEGA, gMonFrontPic_LucarioMega),
     SPECIES_SPRITE(ABOMASNOW_MEGA, gMonFrontPic_AbomasnowMega),
     SPECIES_SPRITE(GALLADE_MEGA, gMonFrontPic_GalladeMega),
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_5_POKEMON == TRUE
     SPECIES_SPRITE(AUDINO_MEGA, gMonFrontPic_AudinoMega),
 #endif
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+    SPECIES_SPRITE(AUDINO_MEGA, gMonFrontPic_AudinoMega),
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(DIANCIE_MEGA, gMonFrontPic_DiancieMega),
 #endif
+
 
     SPECIES_SPRITE(RAYQUAZA_MEGA, gMonFrontPic_RayquazaMega),
     SPECIES_SPRITE(KYOGRE_PRIMAL, gMonFrontPic_KyogrePrimal),
@@ -1008,7 +1044,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(CORSOLA_GALARIAN, gMonFrontPic_CorsolaGalarian),
     SPECIES_SPRITE(ZIGZAGOON_GALARIAN, gMonFrontPic_ZigzagoonGalarian),
     SPECIES_SPRITE(LINOONE_GALARIAN, gMonFrontPic_LinooneGalarian),
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(DARUMAKA_GALARIAN, gMonFrontPic_DarumakaGalarian),
     SPECIES_SPRITE(DARMANITAN_GALARIAN, gMonFrontPic_DarmanitanGalarian),
     SPECIES_SPRITE(YAMASK_GALARIAN, gMonFrontPic_YamaskGalarian),
@@ -1037,6 +1077,30 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
 #if P_GEN_7_POKEMON == TRUE
     SPECIES_SPRITE(DECIDUEYE_HISUIAN, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_DecidueyeHisuian),
 #endif
+
+
+    SPECIES_SPRITE(GROWLITHE_HISUIAN, gMonFrontPic_GrowlitheHisuian),
+    SPECIES_SPRITE(ARCANINE_HISUIAN, gMonFrontPic_ArcanineHisuian),
+    SPECIES_SPRITE(VOLTORB_HISUIAN, gMonFrontPic_VoltorbHisuian),
+    SPECIES_SPRITE(ELECTRODE_HISUIAN, gMonFrontPic_ElectrodeHisuian),
+    SPECIES_SPRITE(TYPHLOSION_HISUIAN, gMonFrontPic_TyphlosionHisuian),
+    SPECIES_SPRITE(QWILFISH_HISUIAN, gMonFrontPic_QwilfishHisuian),
+    SPECIES_SPRITE(SNEASEL_HISUIAN, gMonFrontPic_SneaselHisuian),
+
+    SPECIES_SPRITE(SAMUROTT_HISUIAN, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_SamurottHisuian),
+    SPECIES_SPRITE(LILLIGANT_HISUIAN, gMonFrontPic_LilligantHisuian),
+    SPECIES_SPRITE(ZORUA_HISUIAN, gMonFrontPic_ZoruaHisuian),
+    SPECIES_SPRITE(ZOROARK_HISUIAN, gMonFrontPic_ZoroarkHisuian),
+    SPECIES_SPRITE(BRAVIARY_HISUIAN, gMonFrontPic_BraviaryHisuian),
+
+
+    SPECIES_SPRITE(SLIGGOO_HISUIAN, gMonFrontPic_SliggooHisuian),
+    SPECIES_SPRITE(GOODRA_HISUIAN, gMonFrontPic_GoodraHisuian),
+    SPECIES_SPRITE(AVALUGG_HISUIAN, gMonFrontPic_AvaluggHisuian),
+
+
+    SPECIES_SPRITE(DECIDUEYE_HISUIAN, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_DecidueyeHisuian),
+
 
     SPECIES_SPRITE(PIKACHU_COSPLAY, gMonFrontPic_PikachuCosplay),
     SPECIES_SPRITE(PIKACHU_ROCK_STAR, gMonFrontPic_PikachuRockStar),
@@ -1135,7 +1199,12 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(ARCEUS_FAIRY, gMonFrontPic_Arceus),
 #endif
 
+<<<<<<< Updated upstream
 #if P_GEN_5_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(BASCULIN_BLUE_STRIPED, gMonFrontPic_BasculinBlueStriped),
     SPECIES_SPRITE(BASCULIN_WHITE_STRIPED, gMonFrontPic_BasculinWhiteStriped),
 
@@ -1167,7 +1236,12 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(GENESECT_CHILL_DRIVE, gMonFrontPic_Genesect),
 #endif
 
+<<<<<<< Updated upstream
 #if P_GEN_6_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(GRENINJA_BATTLE_BOND, gMonFrontPic_Greninja),
     SPECIES_SPRITE(GRENINJA_ASH, gMonFrontPic_GreninjaAsh),
 
@@ -1239,7 +1313,12 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(HOOPA_UNBOUND, gMonFrontPic_HoopaUnbound),
 #endif
 
+<<<<<<< Updated upstream
 #if P_GEN_7_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(ORICORIO_POM_POM, gMonFrontPic_OricorioPomPom),
     SPECIES_SPRITE(ORICORIO_PAU, gMonFrontPic_OricorioPau),
     SPECIES_SPRITE(ORICORIO_SENSU, gMonFrontPic_OricorioSensu),
@@ -1292,7 +1371,12 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(MAGEARNA_ORIGINAL_COLOR, gMonFrontPic_MagearnaOriginalColor),
 #endif
 
+<<<<<<< Updated upstream
 #if P_GEN_8_POKEMON == TRUE
+=======
+
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(CRAMORANT_GULPING, gMonFrontPic_CramorantGulping),
     SPECIES_SPRITE(CRAMORANT_GORGING, gMonFrontPic_CramorantGorging),
 
@@ -1331,7 +1415,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(CALYREX_SHADOW_RIDER, gMonFrontPic_CalyrexShadowRider),
 
     SPECIES_SPRITE(ENAMORUS_THERIAN, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_EnamorusTherian),
+<<<<<<< Updated upstream
 #endif
+=======
+
+>>>>>>> Stashed changes
     SPECIES_SPRITE(EGG, gMonFrontPic_Egg),
 };
 
@@ -1357,8 +1445,13 @@ const struct CompressedSpriteSheet gMonFrontPicTableFemale[] =
 #endif
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_SPRITE(PYROAR, gMonFrontPic_PyroarF),
+<<<<<<< Updated upstream
 #endif
 #if P_GEN_7_POKEMON == TRUE
     SPECIES_SPRITE(BASCULEGION, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_BasculegionF),
 #endif
 };
+=======
+    SPECIES_SPRITE(BASCULEGION, gMonFrontPic_CircledQuestionMark), //gMonFrontPic_BasculegionF),
+};
+>>>>>>> Stashed changes

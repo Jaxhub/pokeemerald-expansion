@@ -651,6 +651,55 @@ static const u16 sUnusedData[] =
     0x0121, 0x013b, 0x000f, 0x0013, 0x0039, 0x0046, 0x0094, 0x00f9, 0x007f, 0x0123,
 };
 
+<<<<<<< Updated upstream
+=======
+enum
+{
+    MENU_SUMMARY,
+    MENU_NICKNAME,
+    MENU_SWITCH,
+    MENU_CANCEL1,
+    MENU_ITEM,
+    MENU_GIVE,
+    MENU_TAKE_ITEM,
+    MENU_MAIL,
+    MENU_TAKE_MAIL,
+    MENU_READ,
+    MENU_CANCEL2,
+    MENU_SHIFT,
+    MENU_SEND_OUT,
+    MENU_ENTER,
+    MENU_NO_ENTRY,
+    MENU_STORE,
+    MENU_REGISTER,
+    MENU_TRADE1,
+    MENU_TRADE2,
+    MENU_TOSS,
+    MENU_FIELD_MOVES,
+};
+
+enum
+{
+    FIELD_MOVE_CUT,
+    FIELD_MOVE_FLASH,
+    FIELD_MOVE_ROCK_SMASH,
+    FIELD_MOVE_STRENGTH,
+    FIELD_MOVE_SURF,
+    FIELD_MOVE_FLY,
+    FIELD_MOVE_DIVE,
+    FIELD_MOVE_WATERFALL,
+    FIELD_MOVE_TELEPORT,
+    FIELD_MOVE_DIG,
+    FIELD_MOVE_SECRET_POWER,
+    FIELD_MOVE_MILK_DRINK,
+    FIELD_MOVE_SOFT_BOILED,
+    FIELD_MOVE_SWEET_SCENT,
+};
+
+// What a weird choice of table termination;
+#define FIELD_MOVE_TERMINATOR MOVE_SWORDS_DANCE
+
+>>>>>>> Stashed changes
 struct
 {
     const u8 *text;
@@ -658,6 +707,7 @@ struct
 } static const sCursorOptions[] =
 {
     [MENU_SUMMARY] = {gText_Summary5, CursorCb_Summary},
+    [MENU_NICKNAME] = {gText_Nickname, CursorCb_Nickname},
     [MENU_SWITCH] = {gText_Switch2, CursorCb_Switch},
     [MENU_CANCEL1] = {gText_Cancel2, CursorCb_Cancel1},
     [MENU_ITEM] = {gText_Item, CursorCb_Item},
@@ -799,7 +849,7 @@ static const u8 *const sUnionRoomTradeMessages[] =
 };
 
 static const u32 sHeldItemGfx[] = INCBIN_U32("graphics/party_menu/hold_icons.4bpp");
-static const u16 sHeldItemPalette[] = INCBIN_U16("graphics/party_menu/hold_icons.gbapal");
+const u16 gHeldItemPalette[] = INCBIN_U16("graphics/party_menu/hold_icons.gbapal");
 
 static const struct OamData sOamData_HeldItem =
 {
@@ -836,14 +886,18 @@ static const union AnimCmd *const sSpriteAnimTable_HeldItem[] =
     sSpriteAnim_HeldMail,
 };
 
-static const struct SpriteSheet sSpriteSheet_HeldItem =
+const struct SpriteSheet gSpriteSheet_HeldItem =
 {
     .data = sHeldItemGfx, .size = sizeof(sHeldItemGfx), .tag = TAG_HELD_ITEM
 };
 
-static const struct SpritePalette sSpritePalette_HeldItem =
+const struct SpritePalette sSpritePalette_HeldItem =
 {
+<<<<<<< Updated upstream
     .data = sHeldItemPalette, .tag = TAG_HELD_ITEM
+=======
+    gHeldItemPalette, 0xd750
+>>>>>>> Stashed changes
 };
 
 static const struct SpriteTemplate sSpriteTemplate_HeldItem =
@@ -1105,55 +1159,55 @@ static const u8 *const sUnused_StatStrings[] =
 
 static const u16 sTMHMMoves[] =
 {
-    [ITEM_TM01 - ITEM_TM01] = MOVE_FOCUS_PUNCH,
+    [ITEM_TM01 - ITEM_TM01] = MOVE_TRICK_ROOM,
     [ITEM_TM02 - ITEM_TM01] = MOVE_DRAGON_CLAW,
     [ITEM_TM03 - ITEM_TM01] = MOVE_WATER_PULSE,
     [ITEM_TM04 - ITEM_TM01] = MOVE_CALM_MIND,
-    [ITEM_TM05 - ITEM_TM01] = MOVE_ROAR,
+    [ITEM_TM05 - ITEM_TM01] = MOVE_KNOCK_OFF,
     [ITEM_TM06 - ITEM_TM01] = MOVE_TOXIC,
-    [ITEM_TM07 - ITEM_TM01] = MOVE_HAIL,
+    [ITEM_TM07 - ITEM_TM01] = MOVE_POWER_UP_PUNCH,
     [ITEM_TM08 - ITEM_TM01] = MOVE_BULK_UP,
-    [ITEM_TM09 - ITEM_TM01] = MOVE_BULLET_SEED,
-    [ITEM_TM10 - ITEM_TM01] = MOVE_HIDDEN_POWER,
-    [ITEM_TM11 - ITEM_TM01] = MOVE_SUNNY_DAY,
+    [ITEM_TM09 - ITEM_TM01] = MOVE_SNARL,
+    [ITEM_TM10 - ITEM_TM01] = MOVE_SWORDS_DANCE,
+    [ITEM_TM11 - ITEM_TM01] = MOVE_NASTY_PLOT,
     [ITEM_TM12 - ITEM_TM01] = MOVE_TAUNT,
     [ITEM_TM13 - ITEM_TM01] = MOVE_ICE_BEAM,
-    [ITEM_TM14 - ITEM_TM01] = MOVE_BLIZZARD,
-    [ITEM_TM15 - ITEM_TM01] = MOVE_HYPER_BEAM,
+    [ITEM_TM14 - ITEM_TM01] = MOVE_STEALTH_ROCK,
+    [ITEM_TM15 - ITEM_TM01] = MOVE_BRUTAL_SWING,
     [ITEM_TM16 - ITEM_TM01] = MOVE_LIGHT_SCREEN,
     [ITEM_TM17 - ITEM_TM01] = MOVE_PROTECT,
-    [ITEM_TM18 - ITEM_TM01] = MOVE_RAIN_DANCE,
+    [ITEM_TM18 - ITEM_TM01] = MOVE_BULLDOZE,
     [ITEM_TM19 - ITEM_TM01] = MOVE_GIGA_DRAIN,
-    [ITEM_TM20 - ITEM_TM01] = MOVE_SAFEGUARD,
-    [ITEM_TM21 - ITEM_TM01] = MOVE_FRUSTRATION,
+    [ITEM_TM20 - ITEM_TM01] = MOVE_POISON_JAB,
+    [ITEM_TM21 - ITEM_TM01] = MOVE_X_SCISSOR,
     [ITEM_TM22 - ITEM_TM01] = MOVE_SOLAR_BEAM,
-    [ITEM_TM23 - ITEM_TM01] = MOVE_IRON_TAIL,
+    [ITEM_TM23 - ITEM_TM01] = MOVE_FLASH_CANNON,
     [ITEM_TM24 - ITEM_TM01] = MOVE_THUNDERBOLT,
-    [ITEM_TM25 - ITEM_TM01] = MOVE_THUNDER,
+    [ITEM_TM25 - ITEM_TM01] = MOVE_VOLT_SWITCH,
     [ITEM_TM26 - ITEM_TM01] = MOVE_EARTHQUAKE,
     [ITEM_TM27 - ITEM_TM01] = MOVE_RETURN,
-    [ITEM_TM28 - ITEM_TM01] = MOVE_DIG,
+    [ITEM_TM28 - ITEM_TM01] = MOVE_ICY_WIND,
     [ITEM_TM29 - ITEM_TM01] = MOVE_PSYCHIC,
     [ITEM_TM30 - ITEM_TM01] = MOVE_SHADOW_BALL,
     [ITEM_TM31 - ITEM_TM01] = MOVE_BRICK_BREAK,
-    [ITEM_TM32 - ITEM_TM01] = MOVE_DOUBLE_TEAM,
+    [ITEM_TM32 - ITEM_TM01] = MOVE_SUBSTITUTE,
     [ITEM_TM33 - ITEM_TM01] = MOVE_REFLECT,
-    [ITEM_TM34 - ITEM_TM01] = MOVE_SHOCK_WAVE,
+    [ITEM_TM34 - ITEM_TM01] = MOVE_STOMPING_TANTRUM,
     [ITEM_TM35 - ITEM_TM01] = MOVE_FLAMETHROWER,
     [ITEM_TM36 - ITEM_TM01] = MOVE_SLUDGE_BOMB,
-    [ITEM_TM37 - ITEM_TM01] = MOVE_SANDSTORM,
-    [ITEM_TM38 - ITEM_TM01] = MOVE_FIRE_BLAST,
-    [ITEM_TM39 - ITEM_TM01] = MOVE_ROCK_TOMB,
-    [ITEM_TM40 - ITEM_TM01] = MOVE_AERIAL_ACE,
-    [ITEM_TM41 - ITEM_TM01] = MOVE_TORMENT,
+    [ITEM_TM37 - ITEM_TM01] = MOVE_TAILWIND,
+    [ITEM_TM38 - ITEM_TM01] = MOVE_HEAT_WAVE,
+    [ITEM_TM39 - ITEM_TM01] = MOVE_ROCK_SLIDE,
+    [ITEM_TM40 - ITEM_TM01] = MOVE_MYSTICAL_FIRE,
+    [ITEM_TM41 - ITEM_TM01] = MOVE_QUASH,
     [ITEM_TM42 - ITEM_TM01] = MOVE_FACADE,
-    [ITEM_TM43 - ITEM_TM01] = MOVE_SECRET_POWER,
-    [ITEM_TM44 - ITEM_TM01] = MOVE_REST,
-    [ITEM_TM45 - ITEM_TM01] = MOVE_ATTRACT,
-    [ITEM_TM46 - ITEM_TM01] = MOVE_THIEF,
-    [ITEM_TM47 - ITEM_TM01] = MOVE_STEEL_WING,
-    [ITEM_TM48 - ITEM_TM01] = MOVE_SKILL_SWAP,
-    [ITEM_TM49 - ITEM_TM01] = MOVE_SNATCH,
+    [ITEM_TM43 - ITEM_TM01] = MOVE_EARTH_POWER,
+    [ITEM_TM44 - ITEM_TM01] = MOVE_AIR_SLASH,
+    [ITEM_TM45 - ITEM_TM01] = MOVE_FLIP_TURN,
+    [ITEM_TM46 - ITEM_TM01] = MOVE_U_TURN,
+    [ITEM_TM47 - ITEM_TM01] = MOVE_DARK_PULSE,
+    [ITEM_TM48 - ITEM_TM01] = MOVE_ELECTROWEB,
+    [ITEM_TM49 - ITEM_TM01] = MOVE_DAZZLING_GLEAM,
     [ITEM_TM50 - ITEM_TM01] = MOVE_OVERHEAT,
     [ITEM_TM51 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM52 - ITEM_TM01] = MOVE_NONE, // Todo
@@ -1164,10 +1218,10 @@ static const u16 sTMHMMoves[] =
     [ITEM_TM57 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM58 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM59 - ITEM_TM01] = MOVE_NONE, // Todo
-    [ITEM_TM60 - ITEM_TM01] = MOVE_NONE, // Todo
-    [ITEM_TM61 - ITEM_TM01] = MOVE_NONE, // Todo
-    [ITEM_TM62 - ITEM_TM01] = MOVE_NONE, // Todo
-    [ITEM_TM63 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM60 - ITEM_TM01] = MOVE_ICICLE_SPEAR, // Todo
+    [ITEM_TM61 - ITEM_TM01] = MOVE_WILL_O_WISP, // Todo
+    [ITEM_TM62 - ITEM_TM01] = MOVE_ACROBATICS, // Todo
+    [ITEM_TM63 - ITEM_TM01] = MOVE_DRAIN_PUNCH, // Todo
     [ITEM_TM64 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM65 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_TM66 - ITEM_TM01] = MOVE_NONE, // Todo

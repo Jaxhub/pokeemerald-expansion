@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowSmall;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowMedium;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowLarge;
@@ -35,6 +36,46 @@ extern const struct SpriteTemplate gFieldEffectObjectTemplate_AshLaunch;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_Bubbles;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_SmallSparkle;
 extern const struct SpriteTemplate gFieldEffectObjectTemplate_Rayquaza;
+=======
+const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowSmall;
+const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowMedium;
+const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowLarge;
+const struct SpriteTemplate gFieldEffectObjectTemplate_ShadowExtraLarge;
+const struct SpriteTemplate gFieldEffectObjectTemplate_TallGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Ripple;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Ash;
+const struct SpriteTemplate gFieldEffectObjectTemplate_SurfBlob;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Arrow;
+const struct SpriteTemplate gFieldEffectObjectTemplate_GroundImpactDust;
+const struct SpriteTemplate gFieldEffectObjectTemplate_JumpTallGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_SandFootprints;
+const struct SpriteTemplate gFieldEffectObjectTemplate_JumpBigSplash;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Splash;
+const struct SpriteTemplate gFieldEffectObjectTemplate_JumpSmallSplash;
+const struct SpriteTemplate gFieldEffectObjectTemplate_LongGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_JumpLongGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_UnusedGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_UnusedGrass2;
+const struct SpriteTemplate gFieldEffectObjectTemplate_UnusedSand;
+const struct SpriteTemplate gFieldEffectObjectTemplate_WaterSurfacing;
+const struct SpriteTemplate gFieldEffectObjectTemplate_ReflectionDistortion;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Sparkle;
+const struct SpriteTemplate gFieldEffectObjectTemplate_DeepSandFootprints;
+const struct SpriteTemplate gFieldEffectObjectTemplate_TreeDisguise;
+const struct SpriteTemplate gFieldEffectObjectTemplate_MountainDisguise;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Bird;
+const struct SpriteTemplate gFieldEffectObjectTemplate_BikeTireTracks;
+const struct SpriteTemplate gFieldEffectObjectTemplate_SandDisguisePlaceholder;
+const struct SpriteTemplate gFieldEffectObjectTemplate_SandPile;
+const struct SpriteTemplate gFieldEffectObjectTemplate_ShortGrass;
+const struct SpriteTemplate gFieldEffectObjectTemplate_HotSpringsWater;
+const struct SpriteTemplate gFieldEffectObjectTemplate_AshPuff;
+const struct SpriteTemplate gFieldEffectObjectTemplate_AshLaunch;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Bubbles;
+const struct SpriteTemplate gFieldEffectObjectTemplate_SmallSparkle;
+const struct SpriteTemplate gFieldEffectObjectTemplate_Rayquaza;
+const struct SpriteTemplate gFieldEffectObjectTemplate_CaveDust;
+>>>>>>> Stashed changes
 
 const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [FLDEFFOBJ_SHADOW_S]              = &gFieldEffectObjectTemplate_ShadowSmall,
@@ -74,4 +115,5 @@ const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[] = {
     [FLDEFFOBJ_BUBBLES]               = &gFieldEffectObjectTemplate_Bubbles,
     [FLDEFFOBJ_SMALL_SPARKLE]         = &gFieldEffectObjectTemplate_SmallSparkle,
     [FLDEFFOBJ_RAYQUAZA]              = &gFieldEffectObjectTemplate_Rayquaza,
+    [FLDEFFOBJ_CAVE_DUST]             = &gFieldEffectObjectTemplate_CaveDust,
 };

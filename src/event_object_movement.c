@@ -4654,6 +4654,8 @@ u8 GetCollisionAtCoords(struct ObjectEvent *objectEvent, s16 x, s16 y, u32 dir)
         return COLLISION_IMPASSABLE;
     else if (objectEvent->trackedByCamera && !CanCameraMoveInDirection(direction))
         return COLLISION_IMPASSABLE;
+    else if (IsZCoordMismatchAt(objectEvent->currentElevation, x, y))
+        return COLLISION_ELEVATION_MISMATCH;
     else if (IsElevationMismatchAt(objectEvent->currentElevation, x, y))
         return COLLISION_ELEVATION_MISMATCH;
     else if (DoesObjectCollideWithObjectAt(objectEvent, x, y))
@@ -4669,6 +4671,8 @@ u8 GetCollisionFlagsAtCoords(struct ObjectEvent *objectEvent, s16 x, s16 y, u8 d
         flags |= 1 << (COLLISION_OUTSIDE_RANGE - 1);
     if (MapGridGetCollisionAt(x, y) || GetMapBorderIdAt(x, y) == CONNECTION_INVALID || IsMetatileDirectionallyImpassable(objectEvent, x, y, direction) || (objectEvent->trackedByCamera && !CanCameraMoveInDirection(direction)))
         flags |= 1 << (COLLISION_IMPASSABLE - 1);
+     if (IsZCoordMismatchAt(objectEvent->currentElevation, x, y))
+        flags |= 4;
     if (IsElevationMismatchAt(objectEvent->currentElevation, x, y))
         flags |= 1 << (COLLISION_ELEVATION_MISMATCH - 1);
     if (DoesObjectCollideWithObjectAt(objectEvent, x, y))
@@ -7695,6 +7699,20 @@ static void SetObjectEventSpriteOamTableForLongGrass(struct ObjectEvent *objEven
         sprite->subspriteTableNum = 5;
 }
 
+void ObjectEventUpdateZCoord(struct ObjectEvent *objEvent)
+{
+    u8 z = MapGridGetZCoordAt(objEvent->currentCoords.x, objEvent->currentCoords.y);
+    u8 z2 = MapGridGetZCoordAt(objEvent->previousCoords.x, objEvent->previousCoords.y);
+
+    if (z == 0xF || z2 == 0xF)
+        return;
+
+    objEvent->currentElevation = z;
+
+    if (z != 0 && z != 0xF)
+        objEvent->previousElevation = z;
+}
+
 static bool8 IsElevationMismatchAt(u8 elevation, s16 x, s16 y)
 {
     u8 mapElevation;
@@ -7708,6 +7726,24 @@ static bool8 IsElevationMismatchAt(u8 elevation, s16 x, s16 y)
         return FALSE;
 
     if (mapElevation != elevation)
+        return TRUE;
+
+    return FALSE;
+}
+
+bool8 IsZCoordMismatchAt(u8 z, s16 x, s16 y)
+{
+    u8 mapZ;
+
+    if (z == 0)
+        return FALSE;
+
+    mapZ = MapGridGetZCoordAt(x, y);
+
+    if (mapZ == 0 || mapZ == 15)
+        return FALSE;
+
+    if (mapZ != z)
         return TRUE;
 
     return FALSE;

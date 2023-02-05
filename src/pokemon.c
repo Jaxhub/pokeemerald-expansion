@@ -11,6 +11,7 @@
 #include "battle_tower.h"
 #include "battle_z_move.h"
 #include "data.h"
+#include "dexnav.h"
 #include "event_data.h"
 #include "evolution_scene.h"
 #include "field_specials.h"
@@ -66,8 +67,12 @@ static void DecryptBoxMon(struct BoxPokemon *boxMon);
 static void Task_PlayMapChosenOrBattleBGM(u8 taskId);
 static u16 GiveMoveToBoxMon(struct BoxPokemon *boxMon, u16 move);
 static bool8 ShouldSkipFriendshipChange(void);
+<<<<<<< Updated upstream
 static void RemoveIVIndexFromList(u8 *ivs, u8 selectedIv);
 void TrySpecialOverworldEvo();
+=======
+u8 SendMonToPC(struct Pokemon* mon);
+>>>>>>> Stashed changes
 
 EWRAM_DATA static u8 sLearningMoveTableID = 0;
 EWRAM_DATA u8 gPlayerPartyCount = 0;
@@ -1670,8 +1675,17 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER - 1] = NATIONAL_DEX_CALYREX,
     [SPECIES_CALYREX_SHADOW_RIDER - 1] = NATIONAL_DEX_CALYREX,
+<<<<<<< Updated upstream
     [SPECIES_ENAMORUS_THERIAN - 1] = NATIONAL_DEX_ENAMORUS,
 #endif
+=======
+    //Kleavor
+    [SPECIES_KLEAVOR - 1] = NATIONAL_DEX_KLEAVOR,
+    //Ursaluna
+    [SPECIES_URSALUNA - 1] = NATIONAL_DEX_URSALUNA,
+    //Overqwil
+    [SPECIES_OVERQWIL - 1] = NATIONAL_DEX_OVERQWIL,
+>>>>>>> Stashed changes
 };
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
@@ -2875,6 +2889,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_GLASTRIER - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_SPECTRIER - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_CALYREX - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
+<<<<<<< Updated upstream
     [SPECIES_WYRDEER - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_KLEAVOR - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_URSALUNA - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
@@ -3038,6 +3053,35 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_NECROZMA_DAWN_WINGS - 1]       = ANIM_V_SQUISH_AND_BOUNCE, //Todo
     [SPECIES_NECROZMA_ULTRA - 1]            = ANIM_V_SQUISH_AND_BOUNCE, //Todo
     [SPECIES_MAGEARNA_ORIGINAL_COLOR - 1]   = ANIM_H_SLIDE_SLOW,
+=======
+    [SPECIES_KLEAVOR - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_URSALUNA - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_OVERQWIL - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
+
+    // Forms
+    [SPECIES_ROTOM_HEAT - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_ROTOM_FROST - 1]     = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_ROTOM_FAN - 1]       = ANIM_FIGURE_8,
+    [SPECIES_ROTOM_MOW - 1]       = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_ROTOM_WASH - 1]      = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_ARCEUS_FIGHTING - 1] = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_FLYING - 1]   = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_POISON - 1]   = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_GROUND - 1]   = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_ROCK - 1]     = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_BUG - 1]      = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_GHOST - 1]    = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_STEEL - 1]    = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_FIRE - 1]     = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_WATER - 1]    = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_GRASS - 1]    = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_ELECTRIC - 1] = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_PSYCHIC - 1]  = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_ICE - 1]      = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_DRAGON - 1]   = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_DARK - 1]     = ANIM_CIRCULAR_VIBRATE,
+    [SPECIES_ARCEUS_FAIRY - 1]    = ANIM_CIRCULAR_VIBRATE,
+>>>>>>> Stashed changes
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
@@ -3460,6 +3504,13 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     }
     else // Player is the OT
     {
+        #ifdef ITEM_SHINY_CHARM
+        u32 shinyRolls = (CheckBagHasItem(ITEM_SHINY_CHARM, 1)) ? 3 : 1;
+        #else
+        u32 shinyRolls = 1;
+        #endif
+        u32 i;
+
         value = gSaveBlock2Ptr->playerTrainerId[0]
               | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
               | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
@@ -3485,6 +3536,24 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
                 personality = Random32();
                 totalRerolls--;
             }
+        }
+
+        for (i = 0; i < shinyRolls; i++)
+        {
+            if (Random() < SHINY_ODDS)
+                FlagSet(FLAG_SHINY_CREATION);   // use a flag bc of CreateDexNavWildMon
+        }
+        
+        if (FlagGet(FLAG_SHINY_CREATION))
+        {
+            u8 nature = personality % NUM_NATURES;  // keep current nature
+            do {
+                personality = Random32();
+                personality = ((((Random() % SHINY_ODDS) ^ (HIHALF(value) ^ LOHALF(value))) ^ LOHALF(personality)) << 16) | LOHALF(personality);
+            } while (nature != GetNatureFromPersonality(personality));
+            
+            // clear the flag after use
+            FlagClear(FLAG_SHINY_CREATION);
         }
     }
 
@@ -7917,7 +7986,7 @@ static s32 GetWildMonTableIdInAlteringCave(u16 species)
 
 void SetWildMonHeldItem(void)
 {
-    if (!(gBattleTypeFlags & (BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_TRAINER | BATTLE_TYPE_PYRAMID | BATTLE_TYPE_PIKE)))
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_TRAINER | BATTLE_TYPE_PYRAMID | BATTLE_TYPE_PIKE))&& !gDexnavBattle)
     {
         u16 rnd;
         u16 species;

@@ -46,7 +46,12 @@
 #include "union_room.h"
 #include "constants/battle_frontier.h"
 #include "constants/rgb.h"
+<<<<<<< Updated upstream
 #include "constants/songs.h"
+=======
+#include "quests.h"
+#include "dexnav.h"
+>>>>>>> Stashed changes
 
 // Menu actions
 enum
@@ -64,7 +69,12 @@ enum
     MENU_ACTION_REST_FRONTIER,
     MENU_ACTION_RETIRE_FRONTIER,
     MENU_ACTION_PYRAMID_BAG,
+<<<<<<< Updated upstream
     MENU_ACTION_DEBUG,
+=======
+    MENU_ACTION_QUEST_MENU,
+    MENU_ACTION_DEXNAV
+>>>>>>> Stashed changes
 };
 
 // Save status
@@ -105,7 +115,12 @@ static bool8 StartMenuSafariZoneRetireCallback(void);
 static bool8 StartMenuLinkModePlayerNameCallback(void);
 static bool8 StartMenuBattlePyramidRetireCallback(void);
 static bool8 StartMenuBattlePyramidBagCallback(void);
+<<<<<<< Updated upstream
 static bool8 StartMenuDebugCallback(void);
+=======
+static bool8 QuestMenuCallback(void);
+static bool8 StartMenuDexNavCallback(void);
+>>>>>>> Stashed changes
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -161,6 +176,7 @@ static const u8 gText_MenuDebug[] = _("DEBUG");
 
 static const struct MenuAction sStartMenuItems[] =
 {
+<<<<<<< Updated upstream
     [MENU_ACTION_POKEDEX]         = {gText_MenuPokedex, {.u8_void = StartMenuPokedexCallback}},
     [MENU_ACTION_POKEMON]         = {gText_MenuPokemon, {.u8_void = StartMenuPokemonCallback}},
     [MENU_ACTION_BAG]             = {gText_MenuBag,     {.u8_void = StartMenuBagCallback}},
@@ -175,6 +191,23 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_RETIRE_FRONTIER] = {gText_MenuRetire,  {.u8_void = StartMenuBattlePyramidRetireCallback}},
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
     [MENU_ACTION_DEBUG]           = {gText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
+=======
+    {gText_MenuPokedex, {.u8_void = StartMenuPokedexCallback}},
+    {gText_MenuPokemon, {.u8_void = StartMenuPokemonCallback}},
+    {gText_MenuBag, {.u8_void = StartMenuBagCallback}},
+    {gText_MenuPokenav, {.u8_void = StartMenuPokeNavCallback}},
+    {gText_MenuPlayer, {.u8_void = StartMenuPlayerNameCallback}},
+    {gText_MenuSave, {.u8_void = StartMenuSaveCallback}},
+    {gText_MenuOption, {.u8_void = StartMenuOptionCallback}},
+    {gText_MenuExit, {.u8_void = StartMenuExitCallback}},
+    {gText_MenuRetire, {.u8_void = StartMenuSafariZoneRetireCallback}},
+    {gText_MenuPlayer, {.u8_void = StartMenuLinkModePlayerNameCallback}},
+    {gText_MenuRest, {.u8_void = StartMenuSaveCallback}},
+    {gText_MenuRetire, {.u8_void = StartMenuBattlePyramidRetireCallback}},
+    [MENU_ACTION_QUEST_MENU]        = {gText_QuestMenu, {.u8_void = QuestMenuCallback}},
+    [MENU_ACTION_DEXNAV]            = {gText_MenuDexNav, {.u8_void = StartMenuDexNavCallback}},
+    {gText_MenuBag, {.u8_void = StartMenuBattlePyramidBagCallback}}
+>>>>>>> Stashed changes
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -305,6 +338,7 @@ static void BuildNormalStartMenu(void)
     {
         AddStartMenuAction(MENU_ACTION_POKEDEX);
     }
+
     if (FlagGet(FLAG_SYS_POKEMON_GET) == TRUE)
     {
         AddStartMenuAction(MENU_ACTION_POKEMON);
@@ -317,7 +351,17 @@ static void BuildNormalStartMenu(void)
         AddStartMenuAction(MENU_ACTION_POKENAV);
     }
 
+    if (FlagGet(FLAG_SYS_DEXNAV_GET)){
+    AddStartMenuAction(MENU_ACTION_DEXNAV);
+    }
+
     AddStartMenuAction(MENU_ACTION_PLAYER);
+    
+    //if (FlagGet(FLAG_SYS_QUEST_MENU_GET))
+    //{
+    AddStartMenuAction(MENU_ACTION_QUEST_MENU);
+    //}
+
     AddStartMenuAction(MENU_ACTION_SAVE);
     AddStartMenuAction(MENU_ACTION_OPTION);
     AddStartMenuAction(MENU_ACTION_EXIT);
@@ -1459,4 +1503,16 @@ void AppendToList(u8 *list, u8 *pos, u8 newEntry)
 {
     list[*pos] = newEntry;
     (*pos)++;
+}
+
+static bool8 QuestMenuCallback(void)
+{
+    CreateTask(Task_OpenQuestMenuFromStartMenu, 0);
+    return TRUE;
+}
+
+static bool8 StartMenuDexNavCallback(void)
+{
+    CreateTask(Task_OpenDexNavFromStartMenu, 0);
+    return TRUE;
 }

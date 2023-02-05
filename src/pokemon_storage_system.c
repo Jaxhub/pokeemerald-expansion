@@ -578,6 +578,10 @@ EWRAM_DATA static bool8 sAutoActionOn = 0;
 EWRAM_DATA static bool8 sJustOpenedBag = 0;
 
 // Main tasks
+<<<<<<< Updated upstream
+=======
+void EnterPokeStorage(u8);
+>>>>>>> Stashed changes
 static void Task_InitPokeStorage(u8);
 static void Task_PlaceMon(u8);
 static void Task_ChangeScreen(u8);
